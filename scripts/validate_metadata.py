@@ -20,6 +20,9 @@ REQUIRED_FIELDS = ['type', 'topic_id', 'file_id', 'last_updated']
 # Patrones válidos para el campo 'type'
 VALID_TYPES = ['theory', 'method', 'problem', 'solution', 'reference', 'module-index']
 
+# Valores placeholder que indican campos sin rellenar
+PLACEHOLDER_VALUES = ['YYYY-MM-DD', 'prefijo-xx-nombre', 'slug-del-archivo']
+
 
 def find_markdown_files(base_dir: str) -> List[Path]:
     """Encuentra todos los archivos .md en el directorio dado."""
@@ -69,7 +72,7 @@ def validate_metadata(metadata: Dict[str, str]) -> List[str]:
     for field in REQUIRED_FIELDS:
         if field not in metadata:
             errors.append(f"Campo requerido faltante: '{field}'")
-        elif not metadata[field] or metadata[field] in ['YYYY-MM-DD', 'prefijo-xx-nombre', 'slug-del-archivo']:
+        elif not metadata[field] or metadata[field] in PLACEHOLDER_VALUES:
             errors.append(f"Campo '{field}' tiene valor placeholder sin rellenar")
     
     # Validar que 'type' tenga un valor válido
@@ -125,12 +128,17 @@ def check_metadata(base_dir: str) -> Tuple[int, int, List[str]]:
 
 def main():
     """Punto de entrada principal."""
-    base_dir = sys.argv[1] if len(sys.argv) > 1 else "."
+    import argparse
     
-    print(f"Validando METADATA en: {os.path.abspath(base_dir)}")
+    parser = argparse.ArgumentParser(description='Validar bloques METADATA en archivos Markdown')
+    parser.add_argument('directory', nargs='?', default='.', help='Directorio base para buscar archivos .md')
+    parser.add_argument('--strict', action='store_true', help='Modo estricto: salir con error si hay problemas')
+    args = parser.parse_args()
+    
+    print(f"Validando METADATA en: {os.path.abspath(args.directory)}")
     print("-" * 50)
     
-    total, without_meta, errors = check_metadata(base_dir)
+    total, without_meta, errors = check_metadata(args.directory)
     
     print(f"Total de archivos .md: {total}")
     print(f"Archivos sin METADATA: {without_meta}")
@@ -139,9 +147,13 @@ def main():
         print("\nProblemas encontrados:")
         for error in errors:
             print(error)
-        # No salir con error en scaffolding, solo advertir
-        print("\n⚠ Se encontraron archivos con metadata incompleta (normal en scaffolding).")
-        sys.exit(0)
+        
+        if args.strict:
+            print("\n✗ Validación fallida (modo estricto).")
+            sys.exit(1)
+        else:
+            print("\n⚠ Se encontraron archivos con metadata incompleta (normal en scaffolding).")
+            sys.exit(0)
     else:
         print("\n✓ Todos los archivos tienen METADATA válido.")
         sys.exit(0)

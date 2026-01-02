@@ -12,11 +12,19 @@ import re
 import sys
 from pathlib import Path
 from typing import List, Tuple
+from urllib.parse import urlparse
 
 
 def find_markdown_files(base_dir: str) -> List[Path]:
     """Encuentra todos los archivos .md en el directorio dado."""
     return list(Path(base_dir).rglob("*.md"))
+
+
+def is_external_link(link: str) -> bool:
+    """Determina si un enlace es externo usando urllib.parse."""
+    parsed = urlparse(link)
+    # Es externo si tiene scheme (http, https, mailto, etc.) o es un enlace de anclaje puro
+    return bool(parsed.scheme) or link.startswith('#')
 
 
 def extract_links(content: str) -> List[str]:
@@ -26,8 +34,8 @@ def extract_links(content: str) -> List[str]:
     links = []
     for match in re.finditer(pattern, content):
         link = match.group(2)
-        # Ignorar enlaces externos (http, https, mailto)
-        if not link.startswith(('http://', 'https://', 'mailto:', '#')):
+        # Ignorar enlaces externos usando urllib.parse
+        if not is_external_link(link):
             # Remover anclas del enlace
             link = link.split('#')[0] if '#' in link else link
             if link:
