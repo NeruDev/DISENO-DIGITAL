@@ -1,0 +1,43 @@
+{
+  "id": "01-04-circuitos-combinacionales",
+  "topic": "Circuitos Combinacionales",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Diseñar y analizar circuitos combinacionales como multiplexores, decodificadores y sumadores.",
+  "resource_map": {
+    "entry_point": "01-04-Circuitos-Combinacionales-Intro.md",
+    "main_theory": "theory/01-04-Teoria-Circuitos-Combinacionales.md",
+    "cheat_sheet": "01-04-Resumen-Formulas.md",
+    "methods": [
+      "methods/01-04-Metodos-Circuitos-Combinacionales.md"
+    ],
+    "problems": "problems/01-04-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "01-03-compuertas-logicas"
+  ],
+  "learning_objectives": [
+    "Diseñar multiplexores",
+    "Implementar sumadores",
+    "Analizar decodificadores"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "intermedio",
+  "subtopics": [],
+  "tags": [
+    "mux",
+    "demux",
+    "sumador",
+    "decodificador",
+    "comparador"
+  ],
+  "contains_code_examples": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prefijo-xx-nombre",
+  "topic": "Título del Tema",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "YYYY-MM-DD",
+  "human_purpose": "Descripción breve del propósito",
+  "resource_map": {
+    "entry_point": "PREFIJO-XX-Nombre-Intro.md",
+    "main_theory": "theory/PREFIJO-XX-Teoria-Nombre.md",
+    "cheat_sheet": "PREFIJO-XX-Resumen-Formulas.md",
+    "methods": ["methods/PREFIJO-XX-Metodos-Nombre.md"],
+    "problems": "problems/PREFIJO-XX-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": ["solutions/prob-01/"]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [],
+  "learning_objectives": [],
+  "estimated_time": "1-3 horas",
+  "difficulty": "intermedio",
+  "subtopics": [],
+  "tags": []
+}

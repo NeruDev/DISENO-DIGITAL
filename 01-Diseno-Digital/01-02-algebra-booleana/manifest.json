@@ -1,0 +1,43 @@
+{
+  "id": "01-02-algebra-booleana",
+  "topic": "Álgebra Booleana",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Dominar las operaciones y teoremas del álgebra booleana para simplificación de expresiones lógicas.",
+  "resource_map": {
+    "entry_point": "01-02-Algebra-Booleana-Intro.md",
+    "main_theory": "theory/01-02-Teoria-Algebra-Booleana.md",
+    "cheat_sheet": "01-02-Resumen-Formulas.md",
+    "methods": [
+      "methods/01-02-Metodos-Algebra-Booleana.md"
+    ],
+    "problems": "problems/01-02-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "01-01-sistemas-numericos"
+  ],
+  "learning_objectives": [
+    "Aplicar teoremas de Boole",
+    "Simplificar expresiones",
+    "Usar mapas de Karnaugh"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "básico",
+  "subtopics": [],
+  "tags": [
+    "boole",
+    "logica",
+    "simplificacion",
+    "karnaugh",
+    "teoremas"
+  ],
+  "contains_code_examples": false
+}

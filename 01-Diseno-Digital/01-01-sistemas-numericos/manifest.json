@@ -1,0 +1,41 @@
+{
+  "id": "01-01-sistemas-numericos",
+  "topic": "Sistemas Numéricos",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Comprender los sistemas de numeración binario, octal, decimal y hexadecimal, así como las conversiones entre ellos.",
+  "resource_map": {
+    "entry_point": "01-01-Sistemas-Numericos-Intro.md",
+    "main_theory": "theory/01-01-Teoria-Sistemas-Numericos.md",
+    "cheat_sheet": "01-01-Resumen-Formulas.md",
+    "methods": [
+      "methods/01-01-Metodos-Sistemas-Numericos.md"
+    ],
+    "problems": "problems/01-01-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [],
+  "learning_objectives": [
+    "Identificar bases numéricas",
+    "Realizar conversiones entre sistemas",
+    "Aplicar complementos"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "básico",
+  "subtopics": [],
+  "tags": [
+    "binario",
+    "conversion",
+    "numeracion",
+    "hexadecimal",
+    "octal"
+  ],
+  "contains_code_examples": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "03-04-adc-dac",
+  "topic": "ADC y DAC",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Utilizar conversores analógico-digital y digital-analógico.",
+  "resource_map": {
+    "entry_point": "03-04-Adc-Dac-Intro.md",
+    "main_theory": "theory/03-04-Teoria-Adc-Dac.md",
+    "cheat_sheet": "03-04-Resumen-Formulas.md",
+    "methods": [
+      "methods/03-04-Metodos-Adc-Dac.md"
+    ],
+    "problems": "problems/03-04-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "03-03-timers-interrupciones"
+  ],
+  "learning_objectives": [
+    "Configurar ADC",
+    "Calcular resolución",
+    "Implementar DAC"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "intermedio",
+  "subtopics": [],
+  "tags": [
+    "adc",
+    "dac",
+    "conversion",
+    "analogico",
+    "resolucion"
+  ],
+  "contains_code_examples": true
+}

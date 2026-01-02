@@ -1,0 +1,50 @@
+<!--
+::METADATA::
+type: module-index
+topic_id: 02-03-tipos-datos
+file_id: 02-03-tipos-datos-intro
+status: draft
+audience: both
+last_updated: 2026-01-02
+difficulty: 2
+tags: [std_logic, tipos, vectores]
+search_keywords: "std_logic, tipos, vectores, integer, std_logic_vector"
+-->
+
+# Tipos de Datos
+
+## Descripción
+
+Manejar los tipos de datos en VHDL: std_logic, vectores y tipos definidos por el usuario.
+
+## Objetivos de Aprendizaje
+
+- Usar std_logic
+- Manejar vectores
+- Crear tipos personalizados
+
+## Contenido
+
+- [Teoría](./theory/)
+- [Métodos](./methods/)
+- [Problemas](./problems/)
+- [Soluciones](./solutions/)
+- [Aplicaciones](./applications/)
+
+## Prerrequisitos
+
+- [02-02-entidades-arquitecturas](../02-02-entidades-arquitecturas/)
+
+## Recursos Relacionados
+
+- [Glosario](../../GLOSSARY/README.md)
+- [Volver al módulo](../)
+- [Índice principal](../../README.md)
+
+## Tiempo Estimado
+
+1-3 horas de estudio.
+
+## Nivel de Dificultad
+
+Intermedio (2/3)
