@@ -1,0 +1,43 @@
+{
+  "id": "02-07-sintesis-simulacion",
+  "topic": "Síntesis y Simulación",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Crear testbenches, simular diseños y sintetizar para FPGA.",
+  "resource_map": {
+    "entry_point": "02-07-Sintesis-Simulacion-Intro.md",
+    "main_theory": "theory/02-07-Teoria-Sintesis-Simulacion.md",
+    "cheat_sheet": "02-07-Resumen-Formulas.md",
+    "methods": [
+      "methods/02-07-Metodos-Sintesis-Simulacion.md"
+    ],
+    "problems": "problems/02-07-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "02-06-maquinas-estados"
+  ],
+  "learning_objectives": [
+    "Crear testbenches",
+    "Ejecutar simulaciones",
+    "Sintetizar para FPGA"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "avanzado",
+  "subtopics": [],
+  "tags": [
+    "testbench",
+    "sintesis",
+    "fpga",
+    "simulacion",
+    "verificacion"
+  ],
+  "contains_code_examples": true
+}

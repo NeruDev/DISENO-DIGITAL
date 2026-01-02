@@ -1,0 +1,43 @@
+{
+  "id": "02-04-sentencias-concurrentes",
+  "topic": "Sentencias Concurrentes",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Utilizar sentencias concurrentes en VHDL: asignaciones, with-select, when-else.",
+  "resource_map": {
+    "entry_point": "02-04-Sentencias-Concurrentes-Intro.md",
+    "main_theory": "theory/02-04-Teoria-Sentencias-Concurrentes.md",
+    "cheat_sheet": "02-04-Resumen-Formulas.md",
+    "methods": [
+      "methods/02-04-Metodos-Sentencias-Concurrentes.md"
+    ],
+    "problems": "problems/02-04-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "02-03-tipos-datos"
+  ],
+  "learning_objectives": [
+    "Usar asignaciones concurrentes",
+    "Implementar with-select",
+    "Aplicar when-else"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "intermedio",
+  "subtopics": [],
+  "tags": [
+    "concurrente",
+    "when",
+    "select",
+    "asignacion",
+    "signal"
+  ],
+  "contains_code_examples": true
+}

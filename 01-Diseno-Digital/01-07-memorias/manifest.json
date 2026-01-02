@@ -1,0 +1,43 @@
+{
+  "id": "01-07-memorias",
+  "topic": "Memorias",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Conocer los tipos de memoria y su organización interna.",
+  "resource_map": {
+    "entry_point": "01-07-Memorias-Intro.md",
+    "main_theory": "theory/01-07-Teoria-Memorias.md",
+    "cheat_sheet": "01-07-Resumen-Formulas.md",
+    "methods": [
+      "methods/01-07-Metodos-Memorias.md"
+    ],
+    "problems": "problems/01-07-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "01-06-contadores-registros"
+  ],
+  "learning_objectives": [
+    "Clasificar memorias",
+    "Calcular capacidad",
+    "Entender organización interna"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "intermedio",
+  "subtopics": [],
+  "tags": [
+    "ram",
+    "rom",
+    "memoria",
+    "direccionamiento",
+    "almacenamiento"
+  ],
+  "contains_code_examples": false
+}

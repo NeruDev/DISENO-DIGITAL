@@ -1,0 +1,43 @@
+{
+  "id": "03-06-protocolos-i2c-spi",
+  "topic": "Protocolos I2C/SPI",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Implementar comunicación síncrona usando protocolos I2C y SPI.",
+  "resource_map": {
+    "entry_point": "03-06-Protocolos-I2C-Spi-Intro.md",
+    "main_theory": "theory/03-06-Teoria-Protocolos-I2C-Spi.md",
+    "cheat_sheet": "03-06-Resumen-Formulas.md",
+    "methods": [
+      "methods/03-06-Metodos-Protocolos-I2C-Spi.md"
+    ],
+    "problems": "problems/03-06-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "03-05-comunicacion-serial"
+  ],
+  "learning_objectives": [
+    "Implementar I2C",
+    "Configurar SPI",
+    "Comunicar con periféricos"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "avanzado",
+  "subtopics": [],
+  "tags": [
+    "i2c",
+    "spi",
+    "protocolo",
+    "sincronico",
+    "maestro-esclavo"
+  ],
+  "contains_code_examples": true
+}

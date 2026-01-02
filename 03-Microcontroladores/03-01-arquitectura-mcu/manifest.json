@@ -1,0 +1,43 @@
+{
+  "id": "03-01-arquitectura-mcu",
+  "topic": "Arquitectura de MCU",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Comprender la arquitectura interna de microcontroladores: CPU, memoria, periféricos.",
+  "resource_map": {
+    "entry_point": "03-01-Arquitectura-Mcu-Intro.md",
+    "main_theory": "theory/03-01-Teoria-Arquitectura-Mcu.md",
+    "cheat_sheet": "03-01-Resumen-Formulas.md",
+    "methods": [
+      "methods/03-01-Metodos-Arquitectura-Mcu.md"
+    ],
+    "problems": "problems/03-01-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "01-07-memorias"
+  ],
+  "learning_objectives": [
+    "Identificar componentes",
+    "Entender organización",
+    "Conocer buses"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "básico",
+  "subtopics": [],
+  "tags": [
+    "arquitectura",
+    "cpu",
+    "memoria",
+    "bus",
+    "perifericos"
+  ],
+  "contains_code_examples": false
+}

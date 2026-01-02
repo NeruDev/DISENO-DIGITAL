@@ -1,0 +1,42 @@
+{
+  "id": "03-07-aplicaciones",
+  "topic": "Aplicaciones",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Desarrollar proyectos integradores utilizando los conceptos aprendidos.",
+  "resource_map": {
+    "entry_point": "03-07-Aplicaciones-Intro.md",
+    "main_theory": "theory/03-07-Teoria-Aplicaciones.md",
+    "cheat_sheet": "03-07-Resumen-Formulas.md",
+    "methods": [
+      "methods/03-07-Metodos-Aplicaciones.md"
+    ],
+    "problems": "problems/03-07-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "03-06-protocolos-i2c-spi"
+  ],
+  "learning_objectives": [
+    "Integrar conocimientos",
+    "Desarrollar proyectos",
+    "Documentar soluciones"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "avanzado",
+  "subtopics": [],
+  "tags": [
+    "proyecto",
+    "aplicacion",
+    "integrador",
+    "practica"
+  ],
+  "contains_code_examples": true
+}

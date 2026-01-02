@@ -1,0 +1,43 @@
+{
+  "id": "01-05-circuitos-secuenciales",
+  "topic": "Circuitos Secuenciales",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Comprender el funcionamiento de flip-flops, latches y el análisis de circuitos secuenciales.",
+  "resource_map": {
+    "entry_point": "01-05-Circuitos-Secuenciales-Intro.md",
+    "main_theory": "theory/01-05-Teoria-Circuitos-Secuenciales.md",
+    "cheat_sheet": "01-05-Resumen-Formulas.md",
+    "methods": [
+      "methods/01-05-Metodos-Circuitos-Secuenciales.md"
+    ],
+    "problems": "problems/01-05-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "01-04-circuitos-combinacionales"
+  ],
+  "learning_objectives": [
+    "Distinguir latches y flip-flops",
+    "Analizar diagramas de tiempo",
+    "Diseñar circuitos secuenciales"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "intermedio",
+  "subtopics": [],
+  "tags": [
+    "flipflop",
+    "latch",
+    "sincronico",
+    "asincronico",
+    "memoria"
+  ],
+  "contains_code_examples": false
+}

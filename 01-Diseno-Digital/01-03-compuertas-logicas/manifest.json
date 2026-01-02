@@ -1,0 +1,44 @@
+{
+  "id": "01-03-compuertas-logicas",
+  "topic": "Compuertas Lógicas",
+  "type": "learning_module",
+  "status": "draft",
+  "last_updated": "2026-01-02",
+  "human_purpose": "Conocer las compuertas lógicas fundamentales y su implementación en circuitos.",
+  "resource_map": {
+    "entry_point": "01-03-Compuertas-Logicas-Intro.md",
+    "main_theory": "theory/01-03-Teoria-Compuertas-Logicas.md",
+    "cheat_sheet": "01-03-Resumen-Formulas.md",
+    "methods": [
+      "methods/01-03-Metodos-Compuertas-Logicas.md"
+    ],
+    "problems": "problems/01-03-Problemas.md",
+    "answers": "solutions/Respuestas.md",
+    "solutions": [
+      "solutions/prob-01/"
+    ]
+  },
+  "ai_contract": {
+    "strict_mode": true
+  },
+  "prerequisites": [
+    "01-02-algebra-booleana"
+  ],
+  "learning_objectives": [
+    "Identificar compuertas",
+    "Crear tablas de verdad",
+    "Implementar funciones básicas"
+  ],
+  "estimated_time": "1-3 horas",
+  "difficulty": "básico",
+  "subtopics": [],
+  "tags": [
+    "compuertas",
+    "and",
+    "or",
+    "nand",
+    "nor",
+    "xor"
+  ],
+  "contains_code_examples": false
+}

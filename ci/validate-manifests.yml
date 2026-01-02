@@ -1,0 +1,42 @@
+name: Validate Manifests
+
+on:
+  push:
+    branches: [ main, scaffold/** ]
+    paths:
+      - '**/manifest.json'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**/manifest.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Validate all manifest.json files
+        run: |
+          echo "Validating manifest.json files..."
+          failed=0
+          for file in $(find . -name "manifest.json" -not -path "./node_modules/*" -not -path "./.git/*"); do
+            echo "Checking $file"
+            if python -m json.tool "$file" > /dev/null 2>&1; then
+              echo "✓ $file is valid JSON"
+            else
+              echo "✗ $file is NOT valid JSON"
+              failed=1
+            fi
+          done
+          if [ $failed -eq 1 ]; then
+            echo "Some manifest.json files are invalid!"
+            exit 1
+          fi
+          echo "All manifest.json files are valid!"
