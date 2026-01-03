@@ -1,34 +1,38 @@
-# DIRECTIVAS - Tipos de Datos
+# Directivas — Tipos de Datos
 
-AUDIENCIA: both
+<!--
+::METADATA::
+type: reference
+topic_id: vhdl-03-tipos-datos
+file_id: _directives
+status: stable
+audience: ai_context
+-->
 
-TEMA: Tipos de Datos
+## Clasificación del Contenido
 
-TONO: español técnico, conciso, con notación estandarizada
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `VHDL-03-Teoria-TiposDatos.md` | Teoría de tipos de datos |
+| `methods/` | `VHDL-03-Metodos-TiposDatos.md` | Uso práctico de tipos |
+| `problems/` | `VHDL-03-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `VHDL-03-Respuestas.md` | Soluciones desarrolladas |
+| `applications/` | `APP-VHDL-03-contador-bcd.md` | Contador BCD con tipos |
+| `VHDL-03-Intro.md` | — | Entrada principal del tema |
+| `VHDL-03-Resumen-Formulas.md` | — | Resumen de sintaxis |
+| `manifest.json` | — | Metadatos y configuración |
 
-## IA_HINTS
+## Directivas para IA
 
-- Priorizar definiciones formales y ejemplos mínimos reproducibles.
-- Centrar respuestas en notación estándar IEEE cuando aplique.
-- Incluir ejemplos de código con comentarios en español.
-- Incluir referencias cuando se utilice material externo.
-- Nivel de dificultad: intermedio (2/3).
+- **Audiencia:** Estudiante universitario de diseño digital con VHDL
+- **Formato de salida:** Markdown con código VHDL comentado en español
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
+- **Tareas permitidas:** explain_concept, generate_code, convert_types, verify_syntax, diagnostic_check
+- **Hardware asumido:** FPGA genérica (Xilinx/Intel)
+- **Nivel de dificultad:** Intermedio (2/3)
 
-## ASSUMPTIONS
+## Contexto del Tema
 
-- Hardware asumido: XILINX | INTEL | GENERIC
-- Conocimientos previos: 02-02-entidades-arquitecturas
-
-## FILE_PURPOSE
-
-Manejar los tipos de datos en VHDL: std_logic, vectores y tipos definidos por el usuario.
-
-## LEARNING_OBJECTIVES
-
-- Usar std_logic
-- Manejar vectores
-- Crear tipos personalizados
-
-## TAGS
-
-std_logic, tipos, vectores, integer, std_logic_vector
+- **Prerrequisitos:** vhdl-02-entidades-arquitecturas
+- **Tags:** std_logic, std_logic_vector, integer, unsigned, signed, type, array, record
+- **Propósito:** Manejar los tipos de datos en VHDL: std_logic, vectores y tipos definidos por el usuario

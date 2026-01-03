@@ -1,34 +1,38 @@
-# DIRECTIVAS - Circuitos Secuenciales
+# Directivas — Circuitos Secuenciales
 
-AUDIENCIA: both
+<!--
+::METADATA::
+type: reference
+topic_id: dd-05-circuitos-secuenciales
+file_id: _directives
+status: stable
+audience: ai_context
+-->
 
-TEMA: Circuitos Secuenciales
+## Clasificación del Contenido
 
-TONO: español técnico, conciso, con notación estandarizada
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `DD-05-Teoria-Secuenciales.md` | Teoría de circuitos secuenciales |
+| `methods/` | `DD-05-Metodos-FSM.md` | Métodos de diseño de FSM |
+| `problems/` | `DD-05-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `DD-05-Respuestas.md` | Soluciones desarrolladas |
+| `applications/` | `APP-DD-05-semaforo.md` | Controlador de semáforo |
+| `DD-05-Intro.md` | — | Entrada principal del tema |
+| `DD-05-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
-## IA_HINTS
+## Directivas para IA
 
-- Priorizar definiciones formales y ejemplos mínimos reproducibles.
-- Centrar respuestas en notación estándar IEEE cuando aplique.
-- Este subtema no requiere código de ejemplo.
-- Incluir referencias cuando se utilice material externo.
-- Nivel de dificultad: intermedio (2/3).
+- **Audiencia:** Estudiante universitario de diseño digital
+- **Formato de salida:** Markdown con LaTeX, diagramas de estado y tablas de transición
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
+- **Tareas permitidas:** explain_concept, generate_problems, design_fsm, verify_solution, diagnostic_check
+- **Hardware asumido:** Flip-flops D, JK, T (74xx)
+- **Nivel de dificultad:** Intermedio (2/3)
 
-## ASSUMPTIONS
+## Contexto del Tema
 
-- Hardware asumido: NONE
-- Conocimientos previos: 01-04-circuitos-combinacionales
-
-## FILE_PURPOSE
-
-Comprender el funcionamiento de flip-flops, latches y el análisis de circuitos secuenciales.
-
-## LEARNING_OBJECTIVES
-
-- Distinguir latches y flip-flops
-- Analizar diagramas de tiempo
-- Diseñar circuitos secuenciales
-
-## TAGS
-
-flipflop, latch, sincronico, asincronico, memoria
+- **Prerrequisitos:** dd-04-circuitos-combinacionales
+- **Tags:** flip-flop, latch, FSM, Moore, Mealy, secuencial, estado, transición
+- **Propósito:** Analizar y diseñar circuitos secuenciales usando flip-flops y máquinas de estado

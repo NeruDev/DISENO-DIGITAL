@@ -2,11 +2,12 @@
   "id": "03-07-aplicaciones",
   "topic": "Aplicaciones",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Desarrollar proyectos integradores utilizando los conceptos aprendidos.",
   "resource_map": {
     "entry_point": "MCU-07-Intro.md",
+    "directives": "MCU-07-directives.md",
     "main_theory": "theory/MCU-07-Teoria-Aplicaciones.md",
     "cheat_sheet": "MCU-07-Resumen-Formulas.md",
     "methods": [
@@ -16,10 +17,14 @@
     "answers": "solutions/MCU-07-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-MCU-07-datalogger-i2c-uart.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "MCU-07-directives.md"
   },
   "prerequisites": [
     "03-06-protocolos-i2c-spi"
@@ -79,10 +84,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

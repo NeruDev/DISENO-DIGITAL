@@ -2,11 +2,12 @@
   "id": "01-02-algebra-booleana",
   "topic": "Álgebra Booleana",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Dominar las operaciones y teoremas del álgebra booleana para simplificación de expresiones lógicas.",
   "resource_map": {
     "entry_point": "DD-02-Intro.md",
+    "directives": "DD-02-directives.md",
     "main_theory": "theory/DD-02-Teoria-AlgebraBooleana.md",
     "cheat_sheet": "DD-02-Resumen-Formulas.md",
     "methods": [
@@ -16,10 +17,14 @@
     "answers": "solutions/DD-02-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-DD-02-simplificador-booleano.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "DD-02-directives.md"
   },
   "prerequisites": [
     "01-01-sistemas-numericos"
@@ -84,10 +89,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

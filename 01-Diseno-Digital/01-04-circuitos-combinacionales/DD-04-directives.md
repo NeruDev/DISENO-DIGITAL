@@ -1,34 +1,38 @@
-# DIRECTIVAS - Circuitos Combinacionales
+# Directivas — Circuitos Combinacionales
 
-AUDIENCIA: both
+<!--
+::METADATA::
+type: reference
+topic_id: dd-04-circuitos-combinacionales
+file_id: _directives
+status: stable
+audience: ai_context
+-->
 
-TEMA: Circuitos Combinacionales
+## Clasificación del Contenido
 
-TONO: español técnico, conciso, con notación estandarizada
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `DD-04-Teoria-Combinacionales.md` | Teoría de circuitos combinacionales |
+| `methods/` | `DD-04-Metodos-Diseno.md` | Métodos de diseño combinacional |
+| `problems/` | `DD-04-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `DD-04-Respuestas.md` | Soluciones desarrolladas |
+| `applications/` | `APP-DD-04-alu-simple.md` | ALU simple de 4 bits |
+| `DD-04-Intro.md` | — | Entrada principal del tema |
+| `DD-04-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
-## IA_HINTS
+## Directivas para IA
 
-- Priorizar definiciones formales y ejemplos mínimos reproducibles.
-- Centrar respuestas en notación estándar IEEE cuando aplique.
-- Este subtema no requiere código de ejemplo.
-- Incluir referencias cuando se utilice material externo.
-- Nivel de dificultad: intermedio (2/3).
+- **Audiencia:** Estudiante universitario de diseño digital
+- **Formato de salida:** Markdown con LaTeX y diagramas de bloques
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
+- **Tareas permitidas:** explain_concept, generate_problems, design_circuit, verify_solution, diagnostic_check
+- **Hardware asumido:** Familia 74xx (MUX, DEC, ROM)
+- **Nivel de dificultad:** Intermedio (2/3)
 
-## ASSUMPTIONS
+## Contexto del Tema
 
-- Hardware asumido: NONE
-- Conocimientos previos: 01-03-compuertas-logicas
-
-## FILE_PURPOSE
-
-Diseñar y analizar circuitos combinacionales como multiplexores, decodificadores y sumadores.
-
-## LEARNING_OBJECTIVES
-
-- Diseñar multiplexores
-- Implementar sumadores
-- Analizar decodificadores
-
-## TAGS
-
-mux, demux, sumador, decodificador, comparador
+- **Prerrequisitos:** dd-03-compuertas-logicas
+- **Tags:** multiplexor, decodificador, sumador, comparador, ALU, ROM, combinacional
+- **Propósito:** Diseñar circuitos combinacionales como multiplexores, decodificadores y sumadores

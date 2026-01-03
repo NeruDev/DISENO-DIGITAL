@@ -2,24 +2,29 @@
   "id": "02-02-entidades-arquitecturas",
   "topic": "Entidades y Arquitecturas",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Comprender la estructura básica de un diseño VHDL: entidades y arquitecturas.",
   "resource_map": {
     "entry_point": "VHDL-02-Intro.md",
+    "directives": "VHDL-02-directives.md",
     "main_theory": "theory/VHDL-02-Teoria-EntidadesArquitecturas.md",
     "cheat_sheet": "VHDL-02-Resumen-Formulas.md",
     "methods": [
-      "methods/VHDL-02-Metodos-Entidades.md"
+      "methods/VHDL-02-Metodos-EntidadesArq.md"
     ],
     "problems": "problems/VHDL-02-Problemas.md",
     "answers": "solutions/VHDL-02-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-VHDL-02-mux-generico.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "VHDL-02-directives.md"
   },
   "prerequisites": [
     "02-01-introduccion-vhdl"
@@ -80,10 +85,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

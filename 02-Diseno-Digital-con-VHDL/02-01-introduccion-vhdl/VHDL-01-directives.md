@@ -1,34 +1,38 @@
-# DIRECTIVAS - Introducción a VHDL
+# Directivas — Introducción a VHDL
 
-AUDIENCIA: both
+<!--
+::METADATA::
+type: reference
+topic_id: vhdl-01-introduccion-vhdl
+file_id: _directives
+status: stable
+audience: ai_context
+-->
 
-TEMA: Introducción a VHDL
+## Clasificación del Contenido
 
-TONO: español técnico, conciso, con notación estandarizada
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `VHDL-01-Teoria-IntroVHDL.md` | Teoría introductoria VHDL |
+| `methods/` | `VHDL-01-Metodos-Flujo.md` | Flujo de diseño HDL |
+| `problems/` | `VHDL-01-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `VHDL-01-Respuestas.md` | Soluciones desarrolladas |
+| `applications/` | `APP-VHDL-01-decoder-7seg.md` | Decodificador 7 segmentos |
+| `VHDL-01-Intro.md` | — | Entrada principal del tema |
+| `VHDL-01-Resumen-Formulas.md` | — | Resumen de sintaxis |
+| `manifest.json` | — | Metadatos y configuración |
 
-## IA_HINTS
+## Directivas para IA
 
-- Priorizar definiciones formales y ejemplos mínimos reproducibles.
-- Centrar respuestas en notación estándar IEEE cuando aplique.
-- Incluir ejemplos de código con comentarios en español.
-- Incluir referencias cuando se utilice material externo.
-- Nivel de dificultad: básico (1/3).
+- **Audiencia:** Estudiante universitario de diseño digital con VHDL
+- **Formato de salida:** Markdown con código VHDL comentado en español
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
+- **Tareas permitidas:** explain_concept, generate_code, review_code, verify_syntax, diagnostic_check
+- **Hardware asumido:** FPGA genérica (Xilinx/Intel)
+- **Nivel de dificultad:** Básico (1/3)
 
-## ASSUMPTIONS
+## Contexto del Tema
 
-- Hardware asumido: XILINX | INTEL | GENERIC
-- Conocimientos previos: 01-07-memorias
-
-## FILE_PURPOSE
-
-Introducir el lenguaje VHDL, su historia y el flujo de diseño digital.
-
-## LEARNING_OBJECTIVES
-
-- Conocer historia de VHDL
-- Entender flujo de diseño
-- Configurar herramientas
-
-## TAGS
-
-vhdl, introduccion, hdl, fpga, diseño
+- **Prerrequisitos:** dd-07-memorias (Diseño Digital completo)
+- **Tags:** VHDL, HDL, FPGA, síntesis, simulación, flujo de diseño
+- **Propósito:** Introducir el lenguaje VHDL, su historia y el flujo de diseño digital

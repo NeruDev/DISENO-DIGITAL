@@ -2,11 +2,12 @@
   "id": "02-03-tipos-datos",
   "topic": "Tipos de Datos",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Manejar los tipos de datos en VHDL: std_logic, vectores y tipos definidos por el usuario.",
   "resource_map": {
     "entry_point": "VHDL-03-Intro.md",
+    "directives": "VHDL-03-directives.md",
     "main_theory": "theory/VHDL-03-Teoria-TiposDatos.md",
     "cheat_sheet": "VHDL-03-Resumen-Formulas.md",
     "methods": [
@@ -16,10 +17,14 @@
     "answers": "solutions/VHDL-03-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-VHDL-03-contador-bcd.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "VHDL-03-directives.md"
   },
   "prerequisites": [
     "02-02-entidades-arquitecturas"
@@ -80,10 +85,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

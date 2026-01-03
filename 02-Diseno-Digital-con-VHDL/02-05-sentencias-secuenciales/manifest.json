@@ -2,11 +2,12 @@
   "id": "02-05-sentencias-secuenciales",
   "topic": "Sentencias Secuenciales",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Utilizar procesos y sentencias secuenciales: if-then-else, case, loops.",
   "resource_map": {
     "entry_point": "VHDL-05-Intro.md",
+    "directives": "VHDL-05-directives.md",
     "main_theory": "theory/VHDL-05-Teoria-Secuenciales.md",
     "cheat_sheet": "VHDL-05-Resumen-Formulas.md",
     "methods": [
@@ -16,10 +17,14 @@
     "answers": "solutions/VHDL-05-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-VHDL-05-uart-tx.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "VHDL-05-directives.md"
   },
   "prerequisites": [
     "02-04-sentencias-concurrentes"
@@ -81,10 +86,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

@@ -2,11 +2,12 @@
   "id": "01-01-sistemas-numericos",
   "topic": "Sistemas Numéricos",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Comprender los sistemas de numeración binario, octal, decimal y hexadecimal, así como las conversiones entre ellos.",
   "resource_map": {
     "entry_point": "DD-01-Intro.md",
+    "directives": "DD-01-directives.md",
     "main_theory": "theory/DD-01-Teoria-SistemasNumericos.md",
     "cheat_sheet": "DD-01-Resumen-Formulas.md",
     "methods": [
@@ -16,10 +17,14 @@
     "answers": "solutions/DD-01-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-DD-01-calculadora-bases.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "DD-01-directives.md"
   },
   "prerequisites": [],
   "learning_objectives": [
@@ -82,10 +87,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

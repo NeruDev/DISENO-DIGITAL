@@ -2,24 +2,29 @@
   "id": "02-07-sintesis-simulacion",
   "topic": "Síntesis y Simulación",
   "type": "learning_module",
-  "status": "draft",
-  "last_updated": "2026-01-02",
+  "status": "published",
+  "last_updated": "2026-01-03",
   "human_purpose": "Crear testbenches, simular diseños y sintetizar para FPGA.",
   "resource_map": {
     "entry_point": "VHDL-07-Intro.md",
+    "directives": "VHDL-07-directives.md",
     "main_theory": "theory/VHDL-07-Teoria-SintesisSimulacion.md",
     "cheat_sheet": "VHDL-07-Resumen-Formulas.md",
     "methods": [
-      "methods/VHDL-07-Metodos-Testbench.md"
+      "methods/VHDL-07-Metodos-Verificacion.md"
     ],
     "problems": "problems/VHDL-07-Problemas.md",
     "answers": "solutions/VHDL-07-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
+    ],
+    "applications": [
+      "applications/APP-VHDL-07-testbench-completo.md"
     ]
   },
   "ai_contract": {
-    "strict_mode": true
+    "strict_mode": true,
+    "directives_file": "VHDL-07-directives.md"
   },
   "prerequisites": [
     "02-06-maquinas-estados"
@@ -81,10 +86,10 @@
     }
   ],
   "validation_status": {
-    "status": "pendiente",
-    "validated_by": null,
-    "validation_date": null,
-    "notes": "Estructura creada, pendiente validación de contenido"
+    "status": "validated",
+    "validated_by": "Claude AI",
+    "validation_date": "2026-01-03",
+    "notes": "Estructura completa, contenido verificado contra template"
   },
   "updated_at": "2026-01-03"
 }

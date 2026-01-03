@@ -1,34 +1,38 @@
-# DIRECTIVAS - Contadores y Registros
+# Directivas — Contadores y Registros
 
-AUDIENCIA: both
+<!--
+::METADATA::
+type: reference
+topic_id: dd-06-contadores-registros
+file_id: _directives
+status: stable
+audience: ai_context
+-->
 
-TEMA: Contadores y Registros
+## Clasificación del Contenido
 
-TONO: español técnico, conciso, con notación estandarizada
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `DD-06-Teoria-ContadoresRegistros.md` | Teoría de contadores y registros |
+| `methods/` | `DD-06-Metodos-Contadores.md` | Métodos de diseño de contadores |
+| `problems/` | `DD-06-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `DD-06-Respuestas.md` | Soluciones desarrolladas |
+| `applications/` | `APP-DD-06-reloj-digital.md` | Reloj digital con 7 segmentos |
+| `DD-06-Intro.md` | — | Entrada principal del tema |
+| `DD-06-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
-## IA_HINTS
+## Directivas para IA
 
-- Priorizar definiciones formales y ejemplos mínimos reproducibles.
-- Centrar respuestas en notación estándar IEEE cuando aplique.
-- Este subtema no requiere código de ejemplo.
-- Incluir referencias cuando se utilice material externo.
-- Nivel de dificultad: intermedio (2/3).
+- **Audiencia:** Estudiante universitario de diseño digital
+- **Formato de salida:** Markdown con LaTeX, diagramas de tiempo y tablas de estado
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
+- **Tareas permitidas:** explain_concept, generate_problems, design_counter, verify_solution, diagnostic_check
+- **Hardware asumido:** 74163, 74193, 74595 (contadores y registros)
+- **Nivel de dificultad:** Intermedio (2/3)
 
-## ASSUMPTIONS
+## Contexto del Tema
 
-- Hardware asumido: NONE
-- Conocimientos previos: 01-05-circuitos-secuenciales
-
-## FILE_PURPOSE
-
-Diseñar e implementar contadores y registros de desplazamiento.
-
-## LEARNING_OBJECTIVES
-
-- Diseñar contadores
-- Implementar registros de desplazamiento
-- Analizar secuencias
-
-## TAGS
-
-contador, registro, shift, sincronico, asincronico
+- **Prerrequisitos:** dd-05-circuitos-secuenciales
+- **Tags:** contador, registro, shift, síncrono, asíncrono, módulo, BCD, SIPO, PISO
+- **Propósito:** Diseñar contadores síncronos/asíncronos y registros de desplazamiento

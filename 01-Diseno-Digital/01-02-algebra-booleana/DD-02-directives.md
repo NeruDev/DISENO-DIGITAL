@@ -1,34 +1,38 @@
-# DIRECTIVAS - Álgebra Booleana
+# Directivas — Álgebra Booleana
 
-AUDIENCIA: both
+<!--
+::METADATA::
+type: reference
+topic_id: dd-02-algebra-booleana
+file_id: _directives
+status: stable
+audience: ai_context
+-->
 
-TEMA: Álgebra Booleana
+## Clasificación del Contenido
 
-TONO: español técnico, conciso, con notación estandarizada
+| Carpeta/Archivo | Archivo Principal | Descripción |
+|-----------------|-------------------|-------------|
+| `theory/` | `DD-02-Teoria-AlgebraBooleana.md` | Teoría de álgebra booleana |
+| `methods/` | `DD-02-Metodos-Simplificacion.md` | Métodos de simplificación |
+| `problems/` | `DD-02-Problemas.md` | Enunciados de problemas |
+| `solutions/` | `DD-02-Respuestas.md` | Soluciones desarrolladas |
+| `applications/` | `APP-DD-02-alarma-combinacional.md` | Sistema de alarma combinacional |
+| `DD-02-Intro.md` | — | Entrada principal del tema |
+| `DD-02-Resumen-Formulas.md` | — | Resumen de fórmulas |
+| `manifest.json` | — | Metadatos y configuración |
 
-## IA_HINTS
+## Directivas para IA
 
-- Priorizar definiciones formales y ejemplos mínimos reproducibles.
-- Centrar respuestas en notación estándar IEEE cuando aplique.
-- Este subtema no requiere código de ejemplo.
-- Incluir referencias cuando se utilice material externo.
-- Nivel de dificultad: básico (1/3).
+- **Audiencia:** Estudiante universitario de diseño digital
+- **Formato de salida:** Markdown con LaTeX
+- **Notación:** Seguir `[00-META/notation-cheatsheet.md](../../00-META/notation-cheatsheet.md)`
+- **Tareas permitidas:** explain_concept, generate_problems, simplify_expression, verify_solution, diagnostic_check
+- **Hardware asumido:** Ninguno específico
+- **Nivel de dificultad:** Básico (1/3)
 
-## ASSUMPTIONS
+## Contexto del Tema
 
-- Hardware asumido: NONE
-- Conocimientos previos: 01-01-sistemas-numericos
-
-## FILE_PURPOSE
-
-Dominar las operaciones y teoremas del álgebra booleana para simplificación de expresiones lógicas.
-
-## LEARNING_OBJECTIVES
-
-- Aplicar teoremas de Boole
-- Simplificar expresiones
-- Usar mapas de Karnaugh
-
-## TAGS
-
-boole, logica, simplificacion, karnaugh, teoremas
+- **Prerrequisitos:** dd-01-sistemas-numericos
+- **Tags:** booleano, AND, OR, NOT, simplificación, Karnaugh, mintérminos, maxtérminos
+- **Propósito:** Aplicar teoremas y propiedades del álgebra booleana para simplificar expresiones lógicas
