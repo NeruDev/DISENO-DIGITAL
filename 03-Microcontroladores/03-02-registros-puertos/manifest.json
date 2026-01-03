@@ -7,13 +7,13 @@
   "human_purpose": "Configurar y utilizar puertos GPIO y registros de control.",
   "resource_map": {
     "entry_point": "MCU-02-Intro.md",
-    "main_theory": "theory/03-02-Teoria-Registros-Puertos.md",
+    "main_theory": "theory/MCU-02-Teoria-RegistrosPuertos.md",
     "cheat_sheet": "MCU-02-Resumen-Formulas.md",
     "methods": [
-      "methods/03-02-Metodos-Registros-Puertos.md"
+      "methods/MCU-02-Metodos-GPIO.md"
     ],
-    "problems": "problems/03-02-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-02-Problemas.md",
+    "answers": "solutions/MCU-02-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "03-01-arquitectura-mcu"
   ],
   "learning_objectives": [
-    "Configurar GPIO",
-    "Leer/escribir puertos",
-    "Manipular registros"
+    "Configurar puertos como entrada o salida",
+    "Leer y escribir valores en puertos GPIO",
+    "Manipular bits individuales",
+    "Entender los registros TRIS, PORT y LAT",
+    "Configurar funciones analógicas/digitales"
   ],
-  "estimated_time": "1-3 horas",
-  "difficulty": "intermedio",
-  "subtopics": [],
+  "estimated_time": "5-6 horas",
+  "difficulty": "básico",
+  "subtopics": [
+    "Puertos A, B, C, D, E del PIC16F887",
+    "Registro TRIS (dirección)",
+    "Registro PORT (lectura)",
+    "Registro LAT (escritura)",
+    "Registro ANSEL/ANSELH",
+    "Configuración de bits individuales",
+    "Operaciones bit a bit en C",
+    "Resistencias pull-up internas",
+    "Entrada con botón y antirrebote",
+    "Salida con LED y displays"
+  ],
   "tags": [
     "gpio",
     "puerto",

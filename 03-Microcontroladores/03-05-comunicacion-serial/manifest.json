@@ -7,13 +7,13 @@
   "human_purpose": "Implementar comunicación serial asíncrona (UART) entre dispositivos.",
   "resource_map": {
     "entry_point": "MCU-05-Intro.md",
-    "main_theory": "theory/03-05-Teoria-Comunicacion-Serial.md",
+    "main_theory": "theory/MCU-05-Teoria-UART.md",
     "cheat_sheet": "MCU-05-Resumen-Formulas.md",
     "methods": [
-      "methods/03-05-Metodos-Comunicacion-Serial.md"
+      "methods/MCU-05-Metodos-UART.md"
     ],
-    "problems": "problems/03-05-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-05-Problemas.md",
+    "answers": "solutions/MCU-05-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "03-04-adc-dac"
   ],
   "learning_objectives": [
-    "Configurar UART",
-    "Calcular baud rate",
-    "Transmitir/recibir datos"
+    "Configurar el módulo EUSART del PIC",
+    "Calcular el valor de baud rate generator",
+    "Transmitir y recibir datos seriales",
+    "Implementar comunicación con PC",
+    "Manejar protocolos de comunicación"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "6-7 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Principios de comunicación serial",
+    "Estándar RS-232",
+    "Módulo EUSART del PIC",
+    "Registros TXSTA y RCSTA",
+    "Cálculo de baud rate (SPBRG)",
+    "Transmisión de datos (TXREG)",
+    "Recepción de datos (RCREG)",
+    "Modos síncrono y asíncrono",
+    "Comunicación con terminal PC",
+    "Conversor USB-TTL"
+  ],
   "tags": [
     "uart",
     "serial",

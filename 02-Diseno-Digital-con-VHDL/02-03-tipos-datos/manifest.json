@@ -7,13 +7,13 @@
   "human_purpose": "Manejar los tipos de datos en VHDL: std_logic, vectores y tipos definidos por el usuario.",
   "resource_map": {
     "entry_point": "VHDL-03-Intro.md",
-    "main_theory": "theory/02-03-Teoria-Tipos-Datos.md",
+    "main_theory": "theory/VHDL-03-Teoria-TiposDatos.md",
     "cheat_sheet": "VHDL-03-Resumen-Formulas.md",
     "methods": [
-      "methods/02-03-Metodos-Tipos-Datos.md"
+      "methods/VHDL-03-Metodos-TiposDatos.md"
     ],
-    "problems": "problems/02-03-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/VHDL-03-Problemas.md",
+    "answers": "solutions/VHDL-03-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,25 @@
     "02-02-entidades-arquitecturas"
   ],
   "learning_objectives": [
-    "Usar std_logic",
-    "Manejar vectores",
-    "Crear tipos personalizados"
+    "Utilizar tipos std_logic y std_logic_vector",
+    "Manejar conversiones entre tipos",
+    "Crear tipos personalizados",
+    "Utilizar operadores aritméticos y lógicos",
+    "Entender atributos de tipos"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "5-6 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Tipos escalares: bit, boolean, integer",
+    "std_logic y sus valores (0, 1, Z, X, U, etc.)",
+    "std_logic_vector",
+    "signed y unsigned (numeric_std)",
+    "Tipos enumerados",
+    "Arrays y records",
+    "Conversiones de tipo",
+    "Operadores lógicos y aritméticos",
+    "Atributos: 'range, 'length, 'left, 'right"
+  ],
   "tags": [
     "std_logic",
     "tipos",

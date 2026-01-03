@@ -7,13 +7,13 @@
   "human_purpose": "Comprender la estructura básica de un diseño VHDL: entidades y arquitecturas.",
   "resource_map": {
     "entry_point": "VHDL-02-Intro.md",
-    "main_theory": "theory/02-02-Teoria-Entidades-Arquitecturas.md",
+    "main_theory": "theory/VHDL-02-Teoria-EntidadesArquitecturas.md",
     "cheat_sheet": "VHDL-02-Resumen-Formulas.md",
     "methods": [
-      "methods/02-02-Metodos-Entidades-Arquitecturas.md"
+      "methods/VHDL-02-Metodos-Entidades.md"
     ],
-    "problems": "problems/02-02-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/VHDL-02-Problemas.md",
+    "answers": "solutions/VHDL-02-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,25 @@
     "02-01-introduccion-vhdl"
   ],
   "learning_objectives": [
-    "Definir entidades",
-    "Crear arquitecturas",
-    "Declarar puertos"
+    "Definir entidades con puertos de entrada y salida",
+    "Crear arquitecturas con diferentes estilos",
+    "Declarar señales y constantes",
+    "Utilizar modos de puerto correctamente",
+    "Instanciar componentes"
   ],
-  "estimated_time": "1-3 horas",
-  "difficulty": "intermedio",
-  "subtopics": [],
+  "estimated_time": "4-5 horas",
+  "difficulty": "básico",
+  "subtopics": [
+    "Declaración de entidad (entity)",
+    "Puertos: in, out, inout, buffer",
+    "Genéricos (generic)",
+    "Declaración de arquitectura (architecture)",
+    "Estilo comportamental (behavioral)",
+    "Estilo flujo de datos (dataflow)",
+    "Estilo estructural (structural)",
+    "Señales internas",
+    "Instanciación de componentes"
+  ],
   "tags": [
     "entidad",
     "arquitectura",

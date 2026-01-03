@@ -7,13 +7,13 @@
   "human_purpose": "Conocer las compuertas lógicas fundamentales y su implementación en circuitos.",
   "resource_map": {
     "entry_point": "DD-03-Intro.md",
-    "main_theory": "theory/01-03-Teoria-Compuertas-Logicas.md",
+    "main_theory": "theory/DD-03-Teoria-CompuertasLogicas.md",
     "cheat_sheet": "DD-03-Resumen-Formulas.md",
     "methods": [
-      "methods/01-03-Metodos-Compuertas-Logicas.md"
+      "methods/DD-03-Metodos-Analisis.md"
     ],
-    "problems": "problems/01-03-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-03-Problemas.md",
+    "answers": "solutions/DD-03-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "01-02-algebra-booleana"
   ],
   "learning_objectives": [
-    "Identificar compuertas",
-    "Crear tablas de verdad",
-    "Implementar funciones básicas"
+    "Identificar y utilizar las compuertas lógicas básicas",
+    "Construir tablas de verdad para circuitos combinacionales",
+    "Implementar funciones booleanas con compuertas NAND y NOR",
+    "Comprender las familias lógicas TTL y CMOS",
+    "Analizar características eléctricas de compuertas"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "4-5 horas",
   "difficulty": "básico",
-  "subtopics": [],
+  "subtopics": [
+    "Compuerta NOT (inversor)",
+    "Compuerta AND",
+    "Compuerta OR",
+    "Compuerta NAND (AND-NOT)",
+    "Compuerta NOR (OR-NOT)",
+    "Compuerta XOR (OR exclusivo)",
+    "Compuerta XNOR",
+    "Familia lógica TTL",
+    "Familia lógica CMOS",
+    "Características eléctricas y márgenes de ruido"
+  ],
   "tags": [
     "compuertas",
     "and",

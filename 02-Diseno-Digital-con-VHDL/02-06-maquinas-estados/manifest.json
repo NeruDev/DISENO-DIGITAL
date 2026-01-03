@@ -7,13 +7,13 @@
   "human_purpose": "Diseñar e implementar máquinas de estados finitos (FSM) tipo Moore y Mealy en VHDL.",
   "resource_map": {
     "entry_point": "VHDL-06-Intro.md",
-    "main_theory": "theory/02-06-Teoria-Maquinas-Estados.md",
+    "main_theory": "theory/VHDL-06-Teoria-FSM.md",
     "cheat_sheet": "VHDL-06-Resumen-Formulas.md",
     "methods": [
-      "methods/02-06-Metodos-Maquinas-Estados.md"
+      "methods/VHDL-06-Metodos-FSM.md"
     ],
-    "problems": "problems/02-06-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/VHDL-06-Problemas.md",
+    "answers": "solutions/VHDL-06-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "02-05-sentencias-secuenciales"
   ],
   "learning_objectives": [
-    "Diseñar FSM Moore",
-    "Diseñar FSM Mealy",
-    "Implementar en VHDL"
+    "Diseñar máquinas de estados tipo Moore",
+    "Diseñar máquinas de estados tipo Mealy",
+    "Implementar FSM con diferentes estilos de codificación",
+    "Optimizar codificación de estados",
+    "Evitar estados inválidos"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "8-10 horas",
   "difficulty": "avanzado",
-  "subtopics": [],
+  "subtopics": [
+    "Diagramas de estado ASM",
+    "Máquina Moore en VHDL",
+    "Máquina Mealy en VHDL",
+    "Estilo de codificación: un proceso",
+    "Estilo de codificación: dos procesos",
+    "Estilo de codificación: tres procesos",
+    "Codificación binaria vs one-hot",
+    "Manejo de estados inválidos",
+    "Salidas registradas vs combinacionales",
+    "Ejemplos: semáforo, UART, controladores"
+  ],
   "tags": [
     "fsm",
     "moore",

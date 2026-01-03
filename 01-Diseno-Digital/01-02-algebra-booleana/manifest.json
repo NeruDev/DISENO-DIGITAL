@@ -7,13 +7,13 @@
   "human_purpose": "Dominar las operaciones y teoremas del álgebra booleana para simplificación de expresiones lógicas.",
   "resource_map": {
     "entry_point": "DD-02-Intro.md",
-    "main_theory": "theory/01-02-Teoria-Algebra-Booleana.md",
+    "main_theory": "theory/DD-02-Teoria-AlgebraBooleana.md",
     "cheat_sheet": "DD-02-Resumen-Formulas.md",
     "methods": [
-      "methods/01-02-Metodos-Algebra-Booleana.md"
+      "methods/DD-02-Metodos-Simplificacion.md"
     ],
-    "problems": "problems/01-02-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-02-Problemas.md",
+    "answers": "solutions/DD-02-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,24 @@
     "01-01-sistemas-numericos"
   ],
   "learning_objectives": [
-    "Aplicar teoremas de Boole",
-    "Simplificar expresiones",
-    "Usar mapas de Karnaugh"
+    "Aplicar los postulados y teoremas del álgebra booleana",
+    "Simplificar expresiones booleanas algebraicamente",
+    "Utilizar mapas de Karnaugh para simplificación",
+    "Convertir entre formas SOP y POS",
+    "Identificar minterms y maxterms"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "5-6 horas",
   "difficulty": "básico",
-  "subtopics": [],
+  "subtopics": [
+    "Postulados del álgebra booleana",
+    "Teoremas básicos (identidad, complemento, idempotencia)",
+    "Leyes de De Morgan",
+    "Teorema de consenso",
+    "Formas canónicas SOP y POS",
+    "Minterms y maxterms",
+    "Mapas de Karnaugh (2, 3, 4 variables)",
+    "Condiciones don't care"
+  ],
   "tags": [
     "boole",
     "logica",

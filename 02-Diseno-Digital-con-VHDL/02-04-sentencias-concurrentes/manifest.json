@@ -7,13 +7,13 @@
   "human_purpose": "Utilizar sentencias concurrentes en VHDL: asignaciones, with-select, when-else.",
   "resource_map": {
     "entry_point": "VHDL-04-Intro.md",
-    "main_theory": "theory/02-04-Teoria-Sentencias-Concurrentes.md",
+    "main_theory": "theory/VHDL-04-Teoria-Concurrentes.md",
     "cheat_sheet": "VHDL-04-Resumen-Formulas.md",
     "methods": [
-      "methods/02-04-Metodos-Sentencias-Concurrentes.md"
+      "methods/VHDL-04-Metodos-Concurrentes.md"
     ],
-    "problems": "problems/02-04-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/VHDL-04-Problemas.md",
+    "answers": "solutions/VHDL-04-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,24 @@
     "02-03-tipos-datos"
   ],
   "learning_objectives": [
-    "Usar asignaciones concurrentes",
-    "Implementar with-select",
-    "Aplicar when-else"
+    "Utilizar asignaciones concurrentes de señales",
+    "Implementar lógica con when-else",
+    "Usar with-select para multiplexores",
+    "Aplicar sentencias generate",
+    "Diseñar circuitos combinacionales en VHDL"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "5-6 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Asignación concurrente simple",
+    "Asignación condicional (when-else)",
+    "Asignación selectiva (with-select)",
+    "Sentencia generate (for-generate)",
+    "Sentencia generate condicional (if-generate)",
+    "Operador de concatenación (&)",
+    "Instanciación de componentes",
+    "Circuitos combinacionales en VHDL"
+  ],
   "tags": [
     "concurrente",
     "when",

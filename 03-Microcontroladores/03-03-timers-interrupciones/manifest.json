@@ -7,13 +7,13 @@
   "human_purpose": "Programar temporizadores y manejar interrupciones en microcontroladores.",
   "resource_map": {
     "entry_point": "MCU-03-Intro.md",
-    "main_theory": "theory/03-03-Teoria-Timers-Interrupciones.md",
+    "main_theory": "theory/MCU-03-Teoria-TimersInt.md",
     "cheat_sheet": "MCU-03-Resumen-Formulas.md",
     "methods": [
-      "methods/03-03-Metodos-Timers-Interrupciones.md"
+      "methods/MCU-03-Metodos-Timers.md"
     ],
-    "problems": "problems/03-03-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-03-Problemas.md",
+    "answers": "solutions/MCU-03-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "03-02-registros-puertos"
   ],
   "learning_objectives": [
-    "Configurar timers",
-    "Programar ISR",
-    "Calcular tiempos"
+    "Configurar Timer0, Timer1 y Timer2",
+    "Calcular valores de precarga y prescaler",
+    "Implementar rutinas de servicio de interrupción (ISR)",
+    "Generar retardos precisos",
+    "Manejar interrupciones externas"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "8-10 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Timer0 (8 bits)",
+    "Timer1 (16 bits)",
+    "Timer2 (8 bits con periodo)",
+    "Prescaler y postcaler",
+    "Cálculo de tiempos",
+    "Sistema de interrupciones",
+    "Registro INTCON",
+    "Rutina de servicio de interrupción (ISR)",
+    "Interrupción externa INT",
+    "Interrupciones por cambio de puerto (IOC)"
+  ],
   "tags": [
     "timer",
     "interrupcion",

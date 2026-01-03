@@ -7,13 +7,13 @@
   "human_purpose": "Introducir el lenguaje VHDL, su historia y el flujo de diseño digital.",
   "resource_map": {
     "entry_point": "VHDL-01-Intro.md",
-    "main_theory": "theory/02-01-Teoria-Introduccion-Vhdl.md",
+    "main_theory": "theory/VHDL-01-Teoria-IntroduccionVHDL.md",
     "cheat_sheet": "VHDL-01-Resumen-Formulas.md",
     "methods": [
-      "methods/02-01-Metodos-Introduccion-Vhdl.md"
+      "methods/VHDL-01-Metodos-EstructuraBasica.md"
     ],
-    "problems": "problems/02-01-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/VHDL-01-Problemas.md",
+    "answers": "solutions/VHDL-01-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,24 @@
     "01-07-memorias"
   ],
   "learning_objectives": [
-    "Conocer historia de VHDL",
-    "Entender flujo de diseño",
-    "Configurar herramientas"
+    "Comprender qué es VHDL y su historia",
+    "Entender el flujo de diseño digital con HDL",
+    "Configurar herramientas de desarrollo VHDL",
+    "Conocer la estructura básica de un archivo VHDL",
+    "Distinguir entre modelado y síntesis"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "3-4 horas",
   "difficulty": "básico",
-  "subtopics": [],
+  "subtopics": [
+    "Historia y estándares IEEE",
+    "VHDL vs Verilog",
+    "Flujo de diseño digital",
+    "Herramientas: GHDL, ModelSim, Vivado",
+    "Estructura de archivo VHDL",
+    "Bibliotecas estándar IEEE",
+    "Niveles de abstracción",
+    "Código sintetizable vs no sintetizable"
+  ],
   "tags": [
     "vhdl",
     "introduccion",

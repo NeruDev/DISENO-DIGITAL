@@ -7,13 +7,13 @@
   "human_purpose": "Comprender el funcionamiento de flip-flops, latches y el análisis de circuitos secuenciales.",
   "resource_map": {
     "entry_point": "DD-05-Intro.md",
-    "main_theory": "theory/01-05-Teoria-Circuitos-Secuenciales.md",
+    "main_theory": "theory/DD-05-Teoria-CircuitosSecuenciales.md",
     "cheat_sheet": "DD-05-Resumen-Formulas.md",
     "methods": [
-      "methods/01-05-Metodos-Circuitos-Secuenciales.md"
+      "methods/DD-05-Metodos-FSM.md"
     ],
-    "problems": "problems/01-05-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-05-Problemas.md",
+    "answers": "solutions/DD-05-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "01-04-circuitos-combinacionales"
   ],
   "learning_objectives": [
-    "Distinguir latches y flip-flops",
-    "Analizar diagramas de tiempo",
-    "Diseñar circuitos secuenciales"
+    "Distinguir entre latches y flip-flops",
+    "Analizar diagramas de tiempo de circuitos secuenciales",
+    "Diseñar circuitos secuenciales síncronos",
+    "Implementar máquinas de estados finitos (FSM)",
+    "Convertir entre tipos de flip-flops"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "7-9 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Latch SR (Set-Reset)",
+    "Latch D (Data)",
+    "Flip-flop D disparado por flanco",
+    "Flip-flop JK",
+    "Flip-flop T (Toggle)",
+    "Diagramas de tiempo y análisis",
+    "Circuitos síncronos vs asíncronos",
+    "Máquinas de estados tipo Moore",
+    "Máquinas de estados tipo Mealy",
+    "Diseño de FSM: diagrama, tabla, ecuaciones"
+  ],
   "tags": [
     "flipflop",
     "latch",

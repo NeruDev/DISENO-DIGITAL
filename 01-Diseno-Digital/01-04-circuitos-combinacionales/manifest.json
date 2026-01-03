@@ -7,13 +7,13 @@
   "human_purpose": "Diseñar y analizar circuitos combinacionales como multiplexores, decodificadores y sumadores.",
   "resource_map": {
     "entry_point": "DD-04-Intro.md",
-    "main_theory": "theory/01-04-Teoria-Circuitos-Combinacionales.md",
+    "main_theory": "theory/DD-04-Teoria-CircuitosCombinacionales.md",
     "cheat_sheet": "DD-04-Resumen-Formulas.md",
     "methods": [
-      "methods/01-04-Metodos-Circuitos-Combinacionales.md"
+      "methods/DD-04-Metodos-Diseno.md"
     ],
-    "problems": "problems/01-04-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-04-Problemas.md",
+    "answers": "solutions/DD-04-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,25 @@
     "01-03-compuertas-logicas"
   ],
   "learning_objectives": [
-    "Diseñar multiplexores",
-    "Implementar sumadores",
-    "Analizar decodificadores"
+    "Diseñar y analizar multiplexores y demultiplexores",
+    "Implementar codificadores y decodificadores",
+    "Diseñar sumadores y restadores binarios",
+    "Utilizar comparadores de magnitud",
+    "Construir unidades aritmético-lógicas (ALU) básicas"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "6-8 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Multiplexores (MUX 2:1, 4:1, 8:1)",
+    "Demultiplexores (DEMUX)",
+    "Codificadores",
+    "Decodificadores (2:4, 3:8, BCD a 7 segmentos)",
+    "Semisumador (Half Adder)",
+    "Sumador completo (Full Adder)",
+    "Sumador de propagación de acarreo",
+    "Comparadores de magnitud",
+    "Unidad aritmético-lógica (ALU)"
+  ],
   "tags": [
     "mux",
     "demux",

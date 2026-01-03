@@ -7,13 +7,13 @@
   "human_purpose": "Desarrollar proyectos integradores utilizando los conceptos aprendidos.",
   "resource_map": {
     "entry_point": "MCU-07-Intro.md",
-    "main_theory": "theory/03-07-Teoria-Aplicaciones.md",
+    "main_theory": "theory/MCU-07-Teoria-Aplicaciones.md",
     "cheat_sheet": "MCU-07-Resumen-Formulas.md",
     "methods": [
-      "methods/03-07-Metodos-Aplicaciones.md"
+      "methods/MCU-07-Metodos-Proyectos.md"
     ],
-    "problems": "problems/03-07-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-07-Problemas.md",
+    "answers": "solutions/MCU-07-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "03-06-protocolos-i2c-spi"
   ],
   "learning_objectives": [
-    "Integrar conocimientos",
-    "Desarrollar proyectos",
-    "Documentar soluciones"
+    "Integrar múltiples periféricos en un proyecto",
+    "Desarrollar proyectos completos de sistemas embebidos",
+    "Aplicar buenas prácticas de diseño",
+    "Documentar proyectos de forma profesional",
+    "Depurar y optimizar código"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "10-15 horas",
   "difficulty": "avanzado",
-  "subtopics": [],
+  "subtopics": [
+    "Metodología de desarrollo de proyectos",
+    "Control de LCD alfanumérico",
+    "Control de LCD gráfico",
+    "Control de motores DC y PWM",
+    "Control de servomotores",
+    "Sistema de alarma con sensores",
+    "Termómetro digital con display",
+    "Reloj digital con RTC",
+    "Control de acceso con teclado matricial",
+    "Data logger con almacenamiento"
+  ],
   "tags": [
     "proyecto",
     "aplicacion",

@@ -7,13 +7,13 @@
   "human_purpose": "Implementar comunicación síncrona usando protocolos I2C y SPI.",
   "resource_map": {
     "entry_point": "MCU-06-Intro.md",
-    "main_theory": "theory/03-06-Teoria-Protocolos-I2C-Spi.md",
+    "main_theory": "theory/MCU-06-Teoria-I2C-SPI.md",
     "cheat_sheet": "MCU-06-Resumen-Formulas.md",
     "methods": [
-      "methods/03-06-Metodos-Protocolos-I2C-Spi.md"
+      "methods/MCU-06-Metodos-I2C-SPI.md"
     ],
-    "problems": "problems/03-06-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-06-Problemas.md",
+    "answers": "solutions/MCU-06-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "03-05-comunicacion-serial"
   ],
   "learning_objectives": [
-    "Implementar I2C",
-    "Configurar SPI",
-    "Comunicar con periféricos"
+    "Implementar comunicación I2C maestro/esclavo",
+    "Configurar el módulo MSSP en modo I2C",
+    "Implementar comunicación SPI",
+    "Comunicar con periféricos externos",
+    "Entender direccionamiento I2C"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "8-10 horas",
   "difficulty": "avanzado",
-  "subtopics": [],
+  "subtopics": [
+    "Protocolo I2C: señales SDA y SCL",
+    "Condiciones START y STOP",
+    "Direccionamiento de 7 bits",
+    "Modos maestro y esclavo I2C",
+    "Módulo MSSP en modo I2C",
+    "Protocolo SPI: MOSI, MISO, SCK, SS",
+    "Modos de polaridad y fase (CPOL, CPHA)",
+    "Módulo MSSP en modo SPI",
+    "Comunicación con EEPROM 24C02",
+    "Comunicación con RTC DS1307"
+  ],
   "tags": [
     "i2c",
     "spi",

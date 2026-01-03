@@ -7,13 +7,13 @@
   "human_purpose": "Conocer los tipos de memoria y su organización interna.",
   "resource_map": {
     "entry_point": "DD-07-Intro.md",
-    "main_theory": "theory/01-07-Teoria-Memorias.md",
+    "main_theory": "theory/DD-07-Teoria-Memorias.md",
     "cheat_sheet": "DD-07-Resumen-Formulas.md",
     "methods": [
-      "methods/01-07-Metodos-Memorias.md"
+      "methods/DD-07-Metodos-Memorias.md"
     ],
-    "problems": "problems/01-07-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-07-Problemas.md",
+    "answers": "solutions/DD-07-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "01-06-contadores-registros"
   ],
   "learning_objectives": [
-    "Clasificar memorias",
-    "Calcular capacidad",
-    "Entender organización interna"
+    "Clasificar los tipos de memoria semiconductora",
+    "Calcular capacidad y organización de memoria",
+    "Entender el funcionamiento de RAM y ROM",
+    "Diseñar expansión de memoria",
+    "Conocer dispositivos lógicos programables"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "4-5 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Clasificación de memorias",
+    "RAM estática (SRAM)",
+    "RAM dinámica (DRAM)",
+    "ROM (Read Only Memory)",
+    "PROM y EPROM",
+    "EEPROM y Flash",
+    "Organización interna de memoria",
+    "Expansión de palabra y dirección",
+    "Dispositivos lógicos programables (PLD)",
+    "PAL, GAL y CPLDs"
+  ],
   "tags": [
     "ram",
     "rom",

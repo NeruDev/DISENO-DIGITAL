@@ -7,13 +7,13 @@
   "human_purpose": "Diseñar e implementar contadores y registros de desplazamiento.",
   "resource_map": {
     "entry_point": "DD-06-Intro.md",
-    "main_theory": "theory/01-06-Teoria-Contadores-Registros.md",
+    "main_theory": "theory/DD-06-Teoria-ContadoresRegistros.md",
     "cheat_sheet": "DD-06-Resumen-Formulas.md",
     "methods": [
-      "methods/01-06-Metodos-Contadores-Registros.md"
+      "methods/DD-06-Metodos-Contadores.md"
     ],
-    "problems": "problems/01-06-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-06-Problemas.md",
+    "answers": "solutions/DD-06-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "01-05-circuitos-secuenciales"
   ],
   "learning_objectives": [
-    "Diseñar contadores",
-    "Implementar registros de desplazamiento",
-    "Analizar secuencias"
+    "Diseñar contadores asíncronos y síncronos",
+    "Implementar contadores de módulo arbitrario",
+    "Diseñar registros de desplazamiento",
+    "Analizar secuencias de conteo",
+    "Aplicar contadores en divisores de frecuencia"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "5-6 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Contador asíncrono (ripple counter)",
+    "Contador síncrono binario",
+    "Contador ascendente/descendente",
+    "Contador de módulo N",
+    "Contador de década (BCD)",
+    "Registro de desplazamiento SISO",
+    "Registro de desplazamiento SIPO",
+    "Registro de desplazamiento PISO",
+    "Registro de desplazamiento PIPO",
+    "Contador en anillo y Johnson"
+  ],
   "tags": [
     "contador",
     "registro",

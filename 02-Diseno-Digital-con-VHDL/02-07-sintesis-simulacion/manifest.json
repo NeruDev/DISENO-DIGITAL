@@ -7,13 +7,13 @@
   "human_purpose": "Crear testbenches, simular diseños y sintetizar para FPGA.",
   "resource_map": {
     "entry_point": "VHDL-07-Intro.md",
-    "main_theory": "theory/02-07-Teoria-Sintesis-Simulacion.md",
+    "main_theory": "theory/VHDL-07-Teoria-SintesisSimulacion.md",
     "cheat_sheet": "VHDL-07-Resumen-Formulas.md",
     "methods": [
-      "methods/02-07-Metodos-Sintesis-Simulacion.md"
+      "methods/VHDL-07-Metodos-Testbench.md"
     ],
-    "problems": "problems/02-07-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/VHDL-07-Problemas.md",
+    "answers": "solutions/VHDL-07-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "02-06-maquinas-estados"
   ],
   "learning_objectives": [
-    "Crear testbenches",
-    "Ejecutar simulaciones",
-    "Sintetizar para FPGA"
+    "Crear testbenches para verificación funcional",
+    "Generar estímulos y verificar salidas",
+    "Entender el proceso de síntesis",
+    "Analizar resultados de síntesis",
+    "Aplicar constraints de timing"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "6-8 horas",
   "difficulty": "avanzado",
-  "subtopics": [],
+  "subtopics": [
+    "Estructura de testbench",
+    "Generación de reloj y reset",
+    "Estímulos secuenciales y combinacionales",
+    "Assertions y verificación automática",
+    "Lectura/escritura de archivos",
+    "Proceso de síntesis",
+    "RTL vs post-síntesis",
+    "Constraints de timing (SDC)",
+    "Análisis de utilización de recursos",
+    "Herramientas: GHDL, Vivado, ModelSim"
+  ],
   "tags": [
     "testbench",
     "sintesis",

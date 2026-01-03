@@ -7,13 +7,13 @@
   "human_purpose": "Comprender los sistemas de numeración binario, octal, decimal y hexadecimal, así como las conversiones entre ellos.",
   "resource_map": {
     "entry_point": "DD-01-Intro.md",
-    "main_theory": "theory/01-01-Teoria-Sistemas-Numericos.md",
+    "main_theory": "theory/DD-01-Teoria-SistemasNumericos.md",
     "cheat_sheet": "DD-01-Resumen-Formulas.md",
     "methods": [
-      "methods/01-01-Metodos-Sistemas-Numericos.md"
+      "methods/DD-01-Metodos-Conversiones.md"
     ],
-    "problems": "problems/01-01-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/DD-01-Problemas.md",
+    "answers": "solutions/DD-01-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -23,13 +23,24 @@
   },
   "prerequisites": [],
   "learning_objectives": [
-    "Identificar bases numéricas",
-    "Realizar conversiones entre sistemas",
-    "Aplicar complementos"
+    "Identificar las bases numéricas binaria, octal, decimal y hexadecimal",
+    "Realizar conversiones entre sistemas de numeración",
+    "Aplicar complemento a 1 y complemento a 2",
+    "Representar números con signo",
+    "Realizar operaciones aritméticas binarias"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "4-5 horas",
   "difficulty": "básico",
-  "subtopics": [],
+  "subtopics": [
+    "Sistema binario (base 2)",
+    "Sistema octal (base 8)",
+    "Sistema hexadecimal (base 16)",
+    "Conversión entre bases",
+    "Complemento a 1 y complemento a 2",
+    "Representación de números con signo",
+    "Aritmética binaria",
+    "Códigos BCD, Gray y ASCII"
+  ],
   "tags": [
     "binario",
     "conversion",

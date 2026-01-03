@@ -7,13 +7,13 @@
   "human_purpose": "Comprender la arquitectura interna de microcontroladores: CPU, memoria, periféricos.",
   "resource_map": {
     "entry_point": "MCU-01-Intro.md",
-    "main_theory": "theory/03-01-Teoria-Arquitectura-Mcu.md",
+    "main_theory": "theory/MCU-01-Teoria-ArquitecturaMCU.md",
     "cheat_sheet": "MCU-01-Resumen-Formulas.md",
     "methods": [
-      "methods/03-01-Metodos-Arquitectura-Mcu.md"
+      "methods/MCU-01-Metodos-Arquitectura.md"
     ],
-    "problems": "problems/03-01-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-01-Problemas.md",
+    "answers": "solutions/MCU-01-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "01-07-memorias"
   ],
   "learning_objectives": [
-    "Identificar componentes",
-    "Entender organización",
-    "Conocer buses"
+    "Comprender la arquitectura interna de microcontroladores PIC",
+    "Identificar componentes: CPU, memoria, periféricos",
+    "Entender la organización de memoria",
+    "Conocer el sistema de buses",
+    "Familiarizarse con el PIC16F887"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "3-4 horas",
   "difficulty": "básico",
-  "subtopics": [],
+  "subtopics": [
+    "Arquitectura Von Neumann vs Harvard",
+    "Componentes internos del MCU",
+    "Unidad Central de Proceso (CPU)",
+    "ALU y registros de trabajo",
+    "Memoria de programa (Flash)",
+    "Memoria de datos (RAM)",
+    "Memoria EEPROM",
+    "Sistema de buses",
+    "Mapa de memoria del PIC16F887",
+    "Registros de función especial (SFR)"
+  ],
   "tags": [
     "arquitectura",
     "cpu",

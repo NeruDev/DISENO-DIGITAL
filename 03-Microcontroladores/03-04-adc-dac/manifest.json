@@ -7,13 +7,13 @@
   "human_purpose": "Utilizar conversores analógico-digital y digital-analógico.",
   "resource_map": {
     "entry_point": "MCU-04-Intro.md",
-    "main_theory": "theory/03-04-Teoria-Adc-Dac.md",
+    "main_theory": "theory/MCU-04-Teoria-ADC.md",
     "cheat_sheet": "MCU-04-Resumen-Formulas.md",
     "methods": [
-      "methods/03-04-Metodos-Adc-Dac.md"
+      "methods/MCU-04-Metodos-ADC.md"
     ],
-    "problems": "problems/03-04-Problemas.md",
-    "answers": "solutions/Respuestas.md",
+    "problems": "problems/MCU-04-Problemas.md",
+    "answers": "solutions/MCU-04-Respuestas.md",
     "solutions": [
       "solutions/prob-01/"
     ]
@@ -25,13 +25,26 @@
     "03-03-timers-interrupciones"
   ],
   "learning_objectives": [
-    "Configurar ADC",
-    "Calcular resolución",
-    "Implementar DAC"
+    "Configurar el módulo ADC del PIC",
+    "Calcular resolución y rango de conversión",
+    "Leer sensores analógicos",
+    "Implementar DAC con PWM",
+    "Aplicar filtrado básico de señales"
   ],
-  "estimated_time": "1-3 horas",
+  "estimated_time": "6-7 horas",
   "difficulty": "intermedio",
-  "subtopics": [],
+  "subtopics": [
+    "Principios de conversión A/D",
+    "Módulo ADC de 10 bits del PIC",
+    "Registros ADCON0 y ADCON1",
+    "Selección de canal analógico",
+    "Tiempo de adquisición y conversión",
+    "Justificación izquierda/derecha",
+    "Voltaje de referencia",
+    "DAC con PWM",
+    "Lectura de sensores (LM35, potenciómetros)",
+    "Filtrado promediado"
+  ],
   "tags": [
     "adc",
     "dac",
