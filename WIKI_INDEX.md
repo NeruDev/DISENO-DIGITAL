@@ -143,13 +143,22 @@ graph LR
 
 ### Progreso por Módulo
 
-| Módulo | Teoría | Problemas | Soluciones N1 | Soluciones N2/3 |
-|--------|:------:|:---------:|:-------------:|:---------------:|
+| Módulo | Teoría | Problemas | Soluciones | Aplicaciones |
+|--------|:------:|:---------:|:----------:|:------------:|
 | 01-Diseño Digital | ✅ | ✅ | ✅ | ✅ |
-| 02-VHDL | ✅ | ✅ | ⚠️ | ⚠️ |
-| 03-Microcontroladores | ✅ | ✅ | ⚠️ | ⚠️ |
+| 02-VHDL | ✅ | ✅ | ✅ | ⚠️ |
+| 03-Microcontroladores | ✅ | ✅ | ✅ | ⚠️ |
 
 **Leyenda:** ✅ Completo | ⚠️ Parcial | ❌ Pendiente
+
+### Recursos Transversales
+
+| Recurso | Estado |
+|---------|:------:|
+| GLOSSARY | ✅ Expandido (100+ términos) |
+| Bibliografía | ✅ |
+| WIKI_INDEX | ✅ |
+| Herramientas | ✅ |
 
 ---
 
@@ -161,6 +170,11 @@ graph LR
 | 2026-01-03 | Sistema 3 niveles soluciones DD | 14 archivos |
 | 2026-01-03 | Bibliografía general | 1 archivo |
 | 2026-01-03 | Índices de módulo | 3 archivos |
+| 2026-01-03 | Soluciones VHDL | 10 archivos |
+| 2026-01-03 | Soluciones MCU | 8 archivos |
+| 2026-01-03 | Expansión GLOSSARY A-Z | 1 archivo |
+| 2026-01-03 | Aplicaciones DD-01 a DD-07 | 7 archivos |
+| 2026-01-03 | Aplicaciones VHDL/MCU | 4 archivos |
 
 ---
 
