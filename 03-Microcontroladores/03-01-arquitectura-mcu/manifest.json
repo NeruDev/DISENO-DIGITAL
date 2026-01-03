@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Comprender la arquitectura interna de microcontroladores: CPU, memoria, periféricos.",
   "resource_map": {
-    "entry_point": "03-01-Arquitectura-Mcu-Intro.md",
+    "entry_point": "MCU-01-Intro.md",
     "main_theory": "theory/03-01-Teoria-Arquitectura-Mcu.md",
-    "cheat_sheet": "03-01-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-01-Resumen-Formulas.md",
     "methods": [
       "methods/03-01-Metodos-Arquitectura-Mcu.md"
     ],
@@ -39,5 +39,21 @@
     "bus",
     "perifericos"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Arquitectura de MCU",
+  "slug": "arquitectura-mcu",
+  "area": "mcu",
+  "topics": [
+    "arquitectura",
+    "cpu",
+    "memoria",
+    "bus",
+    "perifericos"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-01-Intro.md",
+    "MCU-01-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Comprender el funcionamiento de flip-flops, latches y el análisis de circuitos secuenciales.",
   "resource_map": {
-    "entry_point": "01-05-Circuitos-Secuenciales-Intro.md",
+    "entry_point": "DD-05-Intro.md",
     "main_theory": "theory/01-05-Teoria-Circuitos-Secuenciales.md",
-    "cheat_sheet": "01-05-Resumen-Formulas.md",
+    "cheat_sheet": "DD-05-Resumen-Formulas.md",
     "methods": [
       "methods/01-05-Metodos-Circuitos-Secuenciales.md"
     ],
@@ -39,5 +39,21 @@
     "asincronico",
     "memoria"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Circuitos Secuenciales",
+  "slug": "circuitos-secuenciales",
+  "area": "dd",
+  "topics": [
+    "flipflop",
+    "latch",
+    "sincronico",
+    "asincronico",
+    "memoria"
+  ],
+  "required_files": [
+    "manifest.json",
+    "DD-05-Intro.md",
+    "DD-05-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

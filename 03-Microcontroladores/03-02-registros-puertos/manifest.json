@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Configurar y utilizar puertos GPIO y registros de control.",
   "resource_map": {
-    "entry_point": "03-02-Registros-Puertos-Intro.md",
+    "entry_point": "MCU-02-Intro.md",
     "main_theory": "theory/03-02-Teoria-Registros-Puertos.md",
-    "cheat_sheet": "03-02-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-02-Resumen-Formulas.md",
     "methods": [
       "methods/03-02-Metodos-Registros-Puertos.md"
     ],
@@ -39,5 +39,21 @@
     "configuracion",
     "entrada-salida"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Registros y Puertos",
+  "slug": "registros-puertos",
+  "area": "mcu",
+  "topics": [
+    "gpio",
+    "puerto",
+    "registro",
+    "configuracion",
+    "entrada-salida"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-02-Intro.md",
+    "MCU-02-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

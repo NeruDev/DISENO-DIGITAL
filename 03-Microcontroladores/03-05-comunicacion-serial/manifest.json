@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Implementar comunicación serial asíncrona (UART) entre dispositivos.",
   "resource_map": {
-    "entry_point": "03-05-Comunicacion-Serial-Intro.md",
+    "entry_point": "MCU-05-Intro.md",
     "main_theory": "theory/03-05-Teoria-Comunicacion-Serial.md",
-    "cheat_sheet": "03-05-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-05-Resumen-Formulas.md",
     "methods": [
       "methods/03-05-Metodos-Comunicacion-Serial.md"
     ],
@@ -39,5 +39,21 @@
     "baud",
     "comunicacion"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Comunicación Serial",
+  "slug": "comunicacion-serial",
+  "area": "mcu",
+  "topics": [
+    "uart",
+    "serial",
+    "rs232",
+    "baud",
+    "comunicacion"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-05-Intro.md",
+    "MCU-05-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

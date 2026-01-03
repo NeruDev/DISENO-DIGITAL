@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Comprender los sistemas de numeración binario, octal, decimal y hexadecimal, así como las conversiones entre ellos.",
   "resource_map": {
-    "entry_point": "01-01-Sistemas-Numericos-Intro.md",
+    "entry_point": "DD-01-Intro.md",
     "main_theory": "theory/01-01-Teoria-Sistemas-Numericos.md",
-    "cheat_sheet": "01-01-Resumen-Formulas.md",
+    "cheat_sheet": "DD-01-Resumen-Formulas.md",
     "methods": [
       "methods/01-01-Metodos-Sistemas-Numericos.md"
     ],
@@ -37,5 +37,21 @@
     "hexadecimal",
     "octal"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Sistemas Numéricos",
+  "slug": "sistemas-numericos",
+  "area": "dd",
+  "topics": [
+    "binario",
+    "conversion",
+    "numeracion",
+    "hexadecimal",
+    "octal"
+  ],
+  "required_files": [
+    "manifest.json",
+    "DD-01-Intro.md",
+    "DD-01-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

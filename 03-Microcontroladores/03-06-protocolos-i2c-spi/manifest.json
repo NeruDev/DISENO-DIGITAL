@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Implementar comunicación síncrona usando protocolos I2C y SPI.",
   "resource_map": {
-    "entry_point": "03-06-Protocolos-I2C-Spi-Intro.md",
+    "entry_point": "MCU-06-Intro.md",
     "main_theory": "theory/03-06-Teoria-Protocolos-I2C-Spi.md",
-    "cheat_sheet": "03-06-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-06-Resumen-Formulas.md",
     "methods": [
       "methods/03-06-Metodos-Protocolos-I2C-Spi.md"
     ],
@@ -39,5 +39,21 @@
     "sincronico",
     "maestro-esclavo"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Protocolos I2C/SPI",
+  "slug": "protocolos-i2c-spi",
+  "area": "mcu",
+  "topics": [
+    "i2c",
+    "spi",
+    "protocolo",
+    "sincronico",
+    "maestro-esclavo"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-06-Intro.md",
+    "MCU-06-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

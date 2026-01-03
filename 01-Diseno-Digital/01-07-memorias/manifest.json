@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Conocer los tipos de memoria y su organización interna.",
   "resource_map": {
-    "entry_point": "01-07-Memorias-Intro.md",
+    "entry_point": "DD-07-Intro.md",
     "main_theory": "theory/01-07-Teoria-Memorias.md",
-    "cheat_sheet": "01-07-Resumen-Formulas.md",
+    "cheat_sheet": "DD-07-Resumen-Formulas.md",
     "methods": [
       "methods/01-07-Metodos-Memorias.md"
     ],
@@ -39,5 +39,21 @@
     "direccionamiento",
     "almacenamiento"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Memorias",
+  "slug": "memorias",
+  "area": "dd",
+  "topics": [
+    "ram",
+    "rom",
+    "memoria",
+    "direccionamiento",
+    "almacenamiento"
+  ],
+  "required_files": [
+    "manifest.json",
+    "DD-07-Intro.md",
+    "DD-07-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Diseñar e implementar máquinas de estados finitos (FSM) tipo Moore y Mealy en VHDL.",
   "resource_map": {
-    "entry_point": "02-06-Maquinas-Estados-Intro.md",
+    "entry_point": "VHDL-06-Intro.md",
     "main_theory": "theory/02-06-Teoria-Maquinas-Estados.md",
-    "cheat_sheet": "02-06-Resumen-Formulas.md",
+    "cheat_sheet": "VHDL-06-Resumen-Formulas.md",
     "methods": [
       "methods/02-06-Metodos-Maquinas-Estados.md"
     ],
@@ -39,5 +39,21 @@
     "estados",
     "transicion"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Máquinas de Estados",
+  "slug": "maquinas-estados",
+  "area": "vhdl",
+  "topics": [
+    "fsm",
+    "moore",
+    "mealy",
+    "estados",
+    "transicion"
+  ],
+  "required_files": [
+    "manifest.json",
+    "VHDL-06-Intro.md",
+    "VHDL-06-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

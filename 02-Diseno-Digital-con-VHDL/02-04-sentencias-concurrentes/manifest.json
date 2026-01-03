@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Utilizar sentencias concurrentes en VHDL: asignaciones, with-select, when-else.",
   "resource_map": {
-    "entry_point": "02-04-Sentencias-Concurrentes-Intro.md",
+    "entry_point": "VHDL-04-Intro.md",
     "main_theory": "theory/02-04-Teoria-Sentencias-Concurrentes.md",
-    "cheat_sheet": "02-04-Resumen-Formulas.md",
+    "cheat_sheet": "VHDL-04-Resumen-Formulas.md",
     "methods": [
       "methods/02-04-Metodos-Sentencias-Concurrentes.md"
     ],
@@ -39,5 +39,21 @@
     "asignacion",
     "signal"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Sentencias Concurrentes",
+  "slug": "sentencias-concurrentes",
+  "area": "vhdl",
+  "topics": [
+    "concurrente",
+    "when",
+    "select",
+    "asignacion",
+    "signal"
+  ],
+  "required_files": [
+    "manifest.json",
+    "VHDL-04-Intro.md",
+    "VHDL-04-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

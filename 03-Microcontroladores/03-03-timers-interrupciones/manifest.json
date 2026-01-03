@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Programar temporizadores y manejar interrupciones en microcontroladores.",
   "resource_map": {
-    "entry_point": "03-03-Timers-Interrupciones-Intro.md",
+    "entry_point": "MCU-03-Intro.md",
     "main_theory": "theory/03-03-Teoria-Timers-Interrupciones.md",
-    "cheat_sheet": "03-03-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-03-Resumen-Formulas.md",
     "methods": [
       "methods/03-03-Metodos-Timers-Interrupciones.md"
     ],
@@ -39,5 +39,21 @@
     "temporizador",
     "eventos"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Timers e Interrupciones",
+  "slug": "timers-interrupciones",
+  "area": "mcu",
+  "topics": [
+    "timer",
+    "interrupcion",
+    "isr",
+    "temporizador",
+    "eventos"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-03-Intro.md",
+    "MCU-03-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

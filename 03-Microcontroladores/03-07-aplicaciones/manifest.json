@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Desarrollar proyectos integradores utilizando los conceptos aprendidos.",
   "resource_map": {
-    "entry_point": "03-07-Aplicaciones-Intro.md",
+    "entry_point": "MCU-07-Intro.md",
     "main_theory": "theory/03-07-Teoria-Aplicaciones.md",
-    "cheat_sheet": "03-07-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-07-Resumen-Formulas.md",
     "methods": [
       "methods/03-07-Metodos-Aplicaciones.md"
     ],
@@ -38,5 +38,20 @@
     "integrador",
     "practica"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Aplicaciones",
+  "slug": "aplicaciones",
+  "area": "mcu",
+  "topics": [
+    "proyecto",
+    "aplicacion",
+    "integrador",
+    "practica"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-07-Intro.md",
+    "MCU-07-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

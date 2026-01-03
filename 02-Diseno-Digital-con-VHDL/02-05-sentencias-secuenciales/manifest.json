@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Utilizar procesos y sentencias secuenciales: if-then-else, case, loops.",
   "resource_map": {
-    "entry_point": "02-05-Sentencias-Secuenciales-Intro.md",
+    "entry_point": "VHDL-05-Intro.md",
     "main_theory": "theory/02-05-Teoria-Sentencias-Secuenciales.md",
-    "cheat_sheet": "02-05-Resumen-Formulas.md",
+    "cheat_sheet": "VHDL-05-Resumen-Formulas.md",
     "methods": [
       "methods/02-05-Metodos-Sentencias-Secuenciales.md"
     ],
@@ -39,5 +39,21 @@
     "secuencial",
     "variable"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Sentencias Secuenciales",
+  "slug": "sentencias-secuenciales",
+  "area": "vhdl",
+  "topics": [
+    "proceso",
+    "if",
+    "case",
+    "secuencial",
+    "variable"
+  ],
+  "required_files": [
+    "manifest.json",
+    "VHDL-05-Intro.md",
+    "VHDL-05-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

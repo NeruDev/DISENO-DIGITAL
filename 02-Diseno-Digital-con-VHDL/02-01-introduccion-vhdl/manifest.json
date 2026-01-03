@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Introducir el lenguaje VHDL, su historia y el flujo de diseño digital.",
   "resource_map": {
-    "entry_point": "02-01-Introduccion-Vhdl-Intro.md",
+    "entry_point": "VHDL-01-Intro.md",
     "main_theory": "theory/02-01-Teoria-Introduccion-Vhdl.md",
-    "cheat_sheet": "02-01-Resumen-Formulas.md",
+    "cheat_sheet": "VHDL-01-Resumen-Formulas.md",
     "methods": [
       "methods/02-01-Metodos-Introduccion-Vhdl.md"
     ],
@@ -39,5 +39,21 @@
     "fpga",
     "diseño"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Introducción a VHDL",
+  "slug": "introduccion-vhdl",
+  "area": "vhdl",
+  "topics": [
+    "vhdl",
+    "introduccion",
+    "hdl",
+    "fpga",
+    "diseño"
+  ],
+  "required_files": [
+    "manifest.json",
+    "VHDL-01-Intro.md",
+    "VHDL-01-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

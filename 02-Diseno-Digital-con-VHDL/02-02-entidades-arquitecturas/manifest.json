@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Comprender la estructura básica de un diseño VHDL: entidades y arquitecturas.",
   "resource_map": {
-    "entry_point": "02-02-Entidades-Arquitecturas-Intro.md",
+    "entry_point": "VHDL-02-Intro.md",
     "main_theory": "theory/02-02-Teoria-Entidades-Arquitecturas.md",
-    "cheat_sheet": "02-02-Resumen-Formulas.md",
+    "cheat_sheet": "VHDL-02-Resumen-Formulas.md",
     "methods": [
       "methods/02-02-Metodos-Entidades-Arquitecturas.md"
     ],
@@ -39,5 +39,21 @@
     "puertos",
     "componentes"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Entidades y Arquitecturas",
+  "slug": "entidades-arquitecturas",
+  "area": "vhdl",
+  "topics": [
+    "entidad",
+    "arquitectura",
+    "estructura",
+    "puertos",
+    "componentes"
+  ],
+  "required_files": [
+    "manifest.json",
+    "VHDL-02-Intro.md",
+    "VHDL-02-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

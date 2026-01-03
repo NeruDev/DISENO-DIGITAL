@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Diseñar y analizar circuitos combinacionales como multiplexores, decodificadores y sumadores.",
   "resource_map": {
-    "entry_point": "01-04-Circuitos-Combinacionales-Intro.md",
+    "entry_point": "DD-04-Intro.md",
     "main_theory": "theory/01-04-Teoria-Circuitos-Combinacionales.md",
-    "cheat_sheet": "01-04-Resumen-Formulas.md",
+    "cheat_sheet": "DD-04-Resumen-Formulas.md",
     "methods": [
       "methods/01-04-Metodos-Circuitos-Combinacionales.md"
     ],
@@ -39,5 +39,21 @@
     "decodificador",
     "comparador"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Circuitos Combinacionales",
+  "slug": "circuitos-combinacionales",
+  "area": "dd",
+  "topics": [
+    "mux",
+    "demux",
+    "sumador",
+    "decodificador",
+    "comparador"
+  ],
+  "required_files": [
+    "manifest.json",
+    "DD-04-Intro.md",
+    "DD-04-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

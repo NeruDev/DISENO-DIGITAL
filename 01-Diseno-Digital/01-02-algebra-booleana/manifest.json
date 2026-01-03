@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Dominar las operaciones y teoremas del álgebra booleana para simplificación de expresiones lógicas.",
   "resource_map": {
-    "entry_point": "01-02-Algebra-Booleana-Intro.md",
+    "entry_point": "DD-02-Intro.md",
     "main_theory": "theory/01-02-Teoria-Algebra-Booleana.md",
-    "cheat_sheet": "01-02-Resumen-Formulas.md",
+    "cheat_sheet": "DD-02-Resumen-Formulas.md",
     "methods": [
       "methods/01-02-Metodos-Algebra-Booleana.md"
     ],
@@ -39,5 +39,21 @@
     "karnaugh",
     "teoremas"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Álgebra Booleana",
+  "slug": "algebra-booleana",
+  "area": "dd",
+  "topics": [
+    "boole",
+    "logica",
+    "simplificacion",
+    "karnaugh",
+    "teoremas"
+  ],
+  "required_files": [
+    "manifest.json",
+    "DD-02-Intro.md",
+    "DD-02-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Conocer las compuertas lógicas fundamentales y su implementación en circuitos.",
   "resource_map": {
-    "entry_point": "01-03-Compuertas-Logicas-Intro.md",
+    "entry_point": "DD-03-Intro.md",
     "main_theory": "theory/01-03-Teoria-Compuertas-Logicas.md",
-    "cheat_sheet": "01-03-Resumen-Formulas.md",
+    "cheat_sheet": "DD-03-Resumen-Formulas.md",
     "methods": [
       "methods/01-03-Metodos-Compuertas-Logicas.md"
     ],
@@ -40,5 +40,22 @@
     "nor",
     "xor"
   ],
-  "contains_code_examples": false
+  "contains_code_examples": false,
+  "title": "Compuertas Lógicas",
+  "slug": "compuertas-logicas",
+  "area": "dd",
+  "topics": [
+    "compuertas",
+    "and",
+    "or",
+    "nand",
+    "nor",
+    "xor"
+  ],
+  "required_files": [
+    "manifest.json",
+    "DD-03-Intro.md",
+    "DD-03-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

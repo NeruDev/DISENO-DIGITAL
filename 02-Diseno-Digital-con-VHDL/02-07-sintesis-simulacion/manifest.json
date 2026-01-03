@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Crear testbenches, simular diseños y sintetizar para FPGA.",
   "resource_map": {
-    "entry_point": "02-07-Sintesis-Simulacion-Intro.md",
+    "entry_point": "VHDL-07-Intro.md",
     "main_theory": "theory/02-07-Teoria-Sintesis-Simulacion.md",
-    "cheat_sheet": "02-07-Resumen-Formulas.md",
+    "cheat_sheet": "VHDL-07-Resumen-Formulas.md",
     "methods": [
       "methods/02-07-Metodos-Sintesis-Simulacion.md"
     ],
@@ -39,5 +39,21 @@
     "simulacion",
     "verificacion"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "Síntesis y Simulación",
+  "slug": "sintesis-simulacion",
+  "area": "vhdl",
+  "topics": [
+    "testbench",
+    "sintesis",
+    "fpga",
+    "simulacion",
+    "verificacion"
+  ],
+  "required_files": [
+    "manifest.json",
+    "VHDL-07-Intro.md",
+    "VHDL-07-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }

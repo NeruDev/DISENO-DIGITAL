@@ -6,9 +6,9 @@
   "last_updated": "2026-01-02",
   "human_purpose": "Utilizar conversores analógico-digital y digital-analógico.",
   "resource_map": {
-    "entry_point": "03-04-Adc-Dac-Intro.md",
+    "entry_point": "MCU-04-Intro.md",
     "main_theory": "theory/03-04-Teoria-Adc-Dac.md",
-    "cheat_sheet": "03-04-Resumen-Formulas.md",
+    "cheat_sheet": "MCU-04-Resumen-Formulas.md",
     "methods": [
       "methods/03-04-Metodos-Adc-Dac.md"
     ],
@@ -39,5 +39,21 @@
     "analogico",
     "resolucion"
   ],
-  "contains_code_examples": true
+  "contains_code_examples": true,
+  "title": "ADC y DAC",
+  "slug": "adc-dac",
+  "area": "mcu",
+  "topics": [
+    "adc",
+    "dac",
+    "conversion",
+    "analogico",
+    "resolucion"
+  ],
+  "required_files": [
+    "manifest.json",
+    "MCU-04-Intro.md",
+    "MCU-04-Resumen-Formulas.md"
+  ],
+  "updated_at": "2026-01-03"
 }
