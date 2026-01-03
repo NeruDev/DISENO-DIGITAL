@@ -55,5 +55,23 @@
     "VHDL-05-Intro.md",
     "VHDL-05-Resumen-Formulas.md"
   ],
+  "references": [
+    {
+      "id": "VHDL-REF-01",
+      "chapters": ["Cap. 8: Sequential Statements"],
+      "pages": "261-330"
+    },
+    {
+      "id": "VHDL-REF-02",
+      "chapters": ["Cap. 5: Sequential Code"],
+      "pages": "141-200"
+    }
+  ],
+  "validation_status": {
+    "status": "pendiente",
+    "validated_by": null,
+    "validation_date": null,
+    "notes": "Estructura creada, pendiente validación de contenido"
+  },
   "updated_at": "2026-01-03"
 }

@@ -55,5 +55,23 @@
     "VHDL-04-Intro.md",
     "VHDL-04-Resumen-Formulas.md"
   ],
+  "references": [
+    {
+      "id": "VHDL-REF-01",
+      "chapters": ["Cap. 7: Concurrent Statements"],
+      "pages": "201-260"
+    },
+    {
+      "id": "VHDL-REF-02",
+      "chapters": ["Cap. 4: Concurrent Code"],
+      "pages": "91-140"
+    }
+  ],
+  "validation_status": {
+    "status": "pendiente",
+    "validated_by": null,
+    "validation_date": null,
+    "notes": "Estructura creada, pendiente validación de contenido"
+  },
   "updated_at": "2026-01-03"
 }

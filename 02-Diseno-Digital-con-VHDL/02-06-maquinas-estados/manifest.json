@@ -55,5 +55,23 @@
     "VHDL-06-Intro.md",
     "VHDL-06-Resumen-Formulas.md"
   ],
+  "references": [
+    {
+      "id": "VHDL-REF-01",
+      "chapters": ["Cap. 10: FSM Design"],
+      "pages": "381-440"
+    },
+    {
+      "id": "VHDL-REF-05",
+      "chapters": ["Cap. 10: Finite State Machine"],
+      "pages": "281-340"
+    }
+  ],
+  "validation_status": {
+    "status": "pendiente",
+    "validated_by": null,
+    "validation_date": null,
+    "notes": "Estructura creada, pendiente validación de contenido"
+  },
   "updated_at": "2026-01-03"
 }

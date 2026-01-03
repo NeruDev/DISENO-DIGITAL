@@ -55,5 +55,23 @@
     "MCU-01-Intro.md",
     "MCU-01-Resumen-Formulas.md"
   ],
+  "references": [
+    {
+      "id": "MCU-REF-01",
+      "chapters": ["Cap. 1-2: Introduction to MCU"],
+      "pages": "1-60"
+    },
+    {
+      "id": "MCU-REF-04",
+      "chapters": ["Sec. 1-3: Device Overview"],
+      "pages": "1-30"
+    }
+  ],
+  "validation_status": {
+    "status": "pendiente",
+    "validated_by": null,
+    "validation_date": null,
+    "notes": "Estructura creada, pendiente validación de contenido"
+  },
   "updated_at": "2026-01-03"
 }

@@ -53,5 +53,23 @@
     "MCU-07-Intro.md",
     "MCU-07-Resumen-Formulas.md"
   ],
+  "references": [
+    {
+      "id": "MCU-REF-01",
+      "chapters": ["Cap. 16-18: Applications"],
+      "pages": "521-620"
+    },
+    {
+      "id": "MCU-REF-03",
+      "chapters": ["Cap. 10-12: Practical Projects"],
+      "pages": "281-380"
+    }
+  ],
+  "validation_status": {
+    "status": "pendiente",
+    "validated_by": null,
+    "validation_date": null,
+    "notes": "Estructura creada, pendiente validación de contenido"
+  },
   "updated_at": "2026-01-03"
 }
