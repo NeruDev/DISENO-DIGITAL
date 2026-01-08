@@ -11,6 +11,8 @@ tags: [proceso, if, case]
 search_keywords: "proceso, if, case, secuencial, variable"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Sentencias Secuenciales
 
 ## Descripción

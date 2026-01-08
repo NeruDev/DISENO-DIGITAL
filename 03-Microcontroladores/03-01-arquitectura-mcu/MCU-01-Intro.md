@@ -11,6 +11,8 @@ tags: [arquitectura, cpu, memoria]
 search_keywords: "arquitectura, cpu, memoria, bus, perifericos"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Arquitectura de MCU
 
 ## Descripción

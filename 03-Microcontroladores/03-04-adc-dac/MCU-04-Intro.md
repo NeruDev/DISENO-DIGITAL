@@ -11,6 +11,8 @@ tags: [adc, dac, conversion]
 search_keywords: "adc, dac, conversion, analogico, resolucion"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # ADC y DAC
 
 ## Descripción

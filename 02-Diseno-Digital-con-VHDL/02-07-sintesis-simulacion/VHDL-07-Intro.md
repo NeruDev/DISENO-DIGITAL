@@ -11,6 +11,8 @@ tags: [testbench, sintesis, fpga]
 search_keywords: "testbench, sintesis, fpga, simulacion, verificacion"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Síntesis y Simulación
 
 ## Descripción

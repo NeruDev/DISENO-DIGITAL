@@ -11,6 +11,8 @@ tags: [concurrente, when, select]
 search_keywords: "concurrente, when, select, asignacion, signal"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Sentencias Concurrentes
 
 ## Descripción

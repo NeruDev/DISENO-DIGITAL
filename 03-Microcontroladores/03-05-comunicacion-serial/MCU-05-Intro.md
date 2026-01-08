@@ -11,6 +11,8 @@ tags: [uart, serial, rs232]
 search_keywords: "uart, serial, rs232, baud, comunicacion"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Comunicación Serial
 
 ## Descripción

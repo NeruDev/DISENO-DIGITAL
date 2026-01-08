@@ -11,6 +11,8 @@ tags: [binario, conversion, numeracion]
 search_keywords: "binario, conversion, numeracion, hexadecimal, octal"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Sistemas Numéricos
 
 ## Descripción

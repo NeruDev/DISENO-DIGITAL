@@ -11,6 +11,8 @@ tags: [compuertas, and, or]
 search_keywords: "compuertas, and, or, nand, nor"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Compuertas Lógicas
 
 ## Descripción

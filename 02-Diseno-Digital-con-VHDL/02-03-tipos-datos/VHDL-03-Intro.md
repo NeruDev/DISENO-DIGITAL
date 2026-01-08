@@ -11,6 +11,8 @@ tags: [std_logic, tipos, vectores]
 search_keywords: "std_logic, tipos, vectores, integer, std_logic_vector"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Tipos de Datos
 
 ## Descripción

@@ -11,6 +11,8 @@ tags: [timer, interrupcion, isr]
 search_keywords: "timer, interrupcion, isr, temporizador, eventos"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Timers e Interrupciones
 
 ## Descripción

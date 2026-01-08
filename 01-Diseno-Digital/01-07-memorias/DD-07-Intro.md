@@ -11,6 +11,8 @@ tags: [ram, rom, memoria]
 search_keywords: "ram, rom, memoria, direccionamiento, almacenamiento"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Memorias
 
 ## Descripción

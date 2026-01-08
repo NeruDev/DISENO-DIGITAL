@@ -11,6 +11,8 @@ tags: [vhdl, introduccion, hdl]
 search_keywords: "vhdl, introduccion, hdl, fpga, diseño"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Introducción a VHDL
 
 ## Descripción

@@ -11,6 +11,8 @@ tags: [contador, registro, shift]
 search_keywords: "contador, registro, shift, sincronico, asincronico"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Contadores y Registros
 
 ## Descripción

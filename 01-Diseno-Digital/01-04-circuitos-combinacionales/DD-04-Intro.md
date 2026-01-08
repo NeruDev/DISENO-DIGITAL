@@ -11,6 +11,8 @@ tags: [mux, demux, sumador]
 search_keywords: "mux, demux, sumador, decodificador, comparador"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Circuitos Combinacionales
 
 ## Descripción

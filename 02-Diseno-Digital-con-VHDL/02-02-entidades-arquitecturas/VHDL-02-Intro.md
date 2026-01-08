@@ -11,6 +11,8 @@ tags: [entidad, arquitectura, estructura]
 search_keywords: "entidad, arquitectura, estructura, puertos, componentes"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Entidades y Arquitecturas
 
 ## Descripción

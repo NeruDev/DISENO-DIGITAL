@@ -11,6 +11,8 @@ tags: [i2c, spi, protocolo]
 search_keywords: "i2c, spi, protocolo, sincronico, maestro-esclavo"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Protocolos I2C/SPI
 
 ## Descripción

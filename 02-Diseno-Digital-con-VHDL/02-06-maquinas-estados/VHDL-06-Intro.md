@@ -11,6 +11,8 @@ tags: [fsm, moore, mealy]
 search_keywords: "fsm, moore, mealy, estados, transicion"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Máquinas de Estados
 
 ## Descripción

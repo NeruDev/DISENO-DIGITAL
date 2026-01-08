@@ -11,6 +11,8 @@ tags: [boole, logica, simplificacion]
 search_keywords: "boole, logica, simplificacion, karnaugh, teoremas"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Álgebra Booleana
 
 ## Descripción

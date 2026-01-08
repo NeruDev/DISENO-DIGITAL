@@ -11,6 +11,8 @@ tags: [flipflop, latch, sincronico]
 search_keywords: "flipflop, latch, sincronico, asincronico, memoria"
 -->
 
+> 🏠 **Navegación:** [← Índice del Módulo](../00-Index.md) | [📑 Wiki](../../WIKI_INDEX.md) | [📚 Glosario](../../glossary.md)
+
 # Circuitos Secuenciales
 
 ## Descripción
